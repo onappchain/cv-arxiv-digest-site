@@ -1,0 +1,262 @@
+const digestData = [
+  {
+    date: '2026-04-14',
+    top5: [
+      {
+        title: 'Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale',
+        url: 'https://arxiv.org/abs/2604.11331',
+        note: 'Moves scene generation into an implicit 3D latent space with a dedicated 3D diffusion transformer, directly targeting spatial consistency at scale.'
+      },
+      {
+        title: 'Online Reasoning Video Object Segmentation',
+        url: 'https://arxiv.org/abs/2604.11411',
+        note: 'Reframes reasoning VOS under strict causality and introduces a benchmark plus causal baseline closer to deployment.'
+      },
+      {
+        title: 'LottieGPT: Tokenizing Vector Animation for Autoregressive Generation',
+        url: 'https://arxiv.org/abs/2604.11792',
+        note: 'Native generation of editable vector animation is unusually fresh, backed by a tokenizer and a 660K-animation dataset.'
+      },
+      {
+        title: 'POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs',
+        url: 'https://arxiv.org/abs/2604.11627',
+        note: 'Targets long-form and streaming visual understanding with an explicit efficiency-accuracy tradeoff.'
+      },
+      {
+        title: "TAPNext++: What's Next for Tracking Any Point (TAP)?",
+        url: 'https://arxiv.org/abs/2604.10582',
+        note: 'Pushes online point tracking with stronger long-horizon tracking, re-detection after occlusion, and a new evaluation metric.'
+      }
+    ],
+    all: [
+      ['Who Handles Orientation? Investigating Invariance in Feature Matching','https://arxiv.org/abs/2604.11809'],
+      ['Pair2Scene: Learning Local Object Relations for Procedural Scene Generation','https://arxiv.org/abs/2604.11808'],
+      ['OmniShow: Unifying Multimodal Conditions for Human-Object Interaction Video Generation','https://arxiv.org/abs/2604.11804'],
+      ['Budget-Aware Uncertainty for Radiotherapy Segmentation QA Using nnU-Net','https://arxiv.org/abs/2604.11798'],
+      ['SyncFix: Fixing 3D Reconstructions via Multi-View Synchronization','https://arxiv.org/abs/2604.11797'],
+      ['LottieGPT: Tokenizing Vector Animation for Autoregressive Generation','https://arxiv.org/abs/2604.11792'],
+      ['LMMs Meet Object-Centric Vision: Understanding, Segmentation, Editing and Generation','https://arxiv.org/abs/2604.11789'],
+      ['HDR Video Generation via Latent Alignment with Logarithmic Encoding','https://arxiv.org/abs/2604.11788'],
+      ['Efficient KernelSHAP Explanations for Patch-based 3D Medical Image Segmentation','https://arxiv.org/abs/2604.11775'],
+      ['MosaicMRI: A Diverse Dataset and Benchmark for Raw Musculoskeletal MRI','https://arxiv.org/abs/2604.11762'],
+      ['Learning Long-term Motion Embeddings for Efficient Kinematics Generation','https://arxiv.org/abs/2604.11737'],
+      ['Ambivalence/Hesitancy Recognition in Videos for Personalized Digital Health Interventions','https://arxiv.org/abs/2604.11730'],
+      ['The Devil is in the Details -- From OCR for Old Church Slavonic to Purely Visual Stemma Reconstruction','https://arxiv.org/abs/2604.11724'],
+      ['On the Robustness of Watermarking for Autoregressive Image Generation','https://arxiv.org/abs/2604.11720'],
+      ['BEM: Training-Free Background Embedding Memory for False-Positive Suppression in Real-Time Fixed-Background Camera','https://arxiv.org/abs/2604.11714'],
+      ['Seeing Through the Tool: A Controlled Benchmark for Occlusion Robustness in Foundation Segmentation Models','https://arxiv.org/abs/2604.11711'],
+      ['Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction','https://arxiv.org/abs/2604.11707'],
+      ['LARY: A Latent Action Representation Yielding Benchmark for Generalizable Vision-to-Action Alignment','https://arxiv.org/abs/2604.11689'],
+      ['Unfolding 3D Gaussian Splatting via Iterative Gaussian Synopsis','https://arxiv.org/abs/2604.11685'],
+      ['Towards Brain MRI Foundation Models for the Clinic: Findings from the FOMO25 Challenge','https://arxiv.org/abs/2604.11679'],
+      ['UNIGEOCLIP: Unified Geospatial Contrastive Learning','https://arxiv.org/abs/2604.11668'],
+      ['GazeVaLM: A Multi-Observer Eye-Tracking Benchmark for Evaluating Clinical Realism in AI-Generated X-Rays','https://arxiv.org/abs/2604.11653'],
+      ['STS-Mixer: Spatio-Temporal-Spectral Mixer for 4D Point Cloud Video Understanding','https://arxiv.org/abs/2604.11637'],
+      ['MorphoFlow: Sparse-Supervised Generative Shape Modeling with Adaptive Latent Relevance','https://arxiv.org/abs/2604.11636'],
+      ['POINTS-Long: Adaptive Dual-Mode Visual Reasoning in MLLMs','https://arxiv.org/abs/2604.11627'],
+      ['Geoparsing: Diagram Parsing for Plane and Solid Geometry with a Unified Formal Language','https://arxiv.org/abs/2604.11600'],
+      ['Learning Robustness at Test-Time from a Non-Robust Teacher','https://arxiv.org/abs/2604.11590'],
+      ['MLLM-as-a-Judge Exhibits Model Preference Bias','https://arxiv.org/abs/2604.11589'],
+      ['GeomPrompt: Geometric Prompt Learning for RGB-D Semantic Segmentation Under Missing and Degraded Depth','https://arxiv.org/abs/2604.11585'],
+      ['Seeing Through Touch: Tactile-Driven Visual Localization of Material Regions','https://arxiv.org/abs/2604.11579'],
+      ['Finetune Like You Pretrain: Boosting Zero-shot Adversarial Robustness in Vision-language Models','https://arxiv.org/abs/2604.11576'],
+      ['Training-Free Model Ensemble for Single-Image Super-Resolution via Strong-Branch Compensation','https://arxiv.org/abs/2604.11564'],
+      ['The Impact of Federated Learning on Distributed Remote Sensing Archives','https://arxiv.org/abs/2604.11562'],
+      ['Progressively Texture-Aware Diffusion for Contrast-Enhanced Sparse-View CT','https://arxiv.org/abs/2604.11559'],
+      ['CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space','https://arxiv.org/abs/2604.11539'],
+      ['SVD-Prune: Training-Free Token Pruning For Efficient Vision-Language Models','https://arxiv.org/abs/2604.11530'],
+      ['TAG-Head: Time-Aligned Graph Head for Plug-and-Play Fine-grained Action Recognition','https://arxiv.org/abs/2604.11498'],
+      ['Revisiting Compositionality in Dual-Encoder Vision-Language Models: The Role of Inference','https://arxiv.org/abs/2604.11496'],
+      ['NTIRE 2026 Challenge on Robust AI-Generated Image Detection in the Wild','https://arxiv.org/abs/2604.11487'],
+      ['PACO: Proxy-Task Alignment and Online Calibration for On-the-Fly Category Discovery','https://arxiv.org/abs/2604.11484'],
+      ['Degradation-Aware and Structure-Preserving Diffusion for Real-World Image Super-Resolution','https://arxiv.org/abs/2604.11470'],
+      ['Observe Less, Understand More: Cost-aware Cross-scale Observation for Remote Sensing Understanding','https://arxiv.org/abs/2604.11415'],
+      ['Online Reasoning Video Object Segmentation','https://arxiv.org/abs/2604.11411'],
+      ['Scene Change Detection with Vision-Language Representation Learning','https://arxiv.org/abs/2604.11402'],
+      ['Reasoning Resides in Layers: Restoring Temporal Reasoning in Video-Language Models with Layer-Selective Merging','https://arxiv.org/abs/2604.11399'],
+      ['LEADER: Learning Reliable Local-to-Global Correspondences for LiDAR Relocalization','https://arxiv.org/abs/2604.11355'],
+      ['Any 3D Scene is Worth 1K Tokens: 3D-Grounded Representation for Scene Generation at Scale','https://arxiv.org/abs/2604.11331'],
+      ['H-SPAM: Hierarchical Superpixel Anything Model','https://arxiv.org/abs/2604.11218'],
+      ['TraversalBench: Challenging Paths to Follow for Vision Language Models','https://arxiv.org/abs/2604.10999'],
+      ['TAPNext++: What\'s Next for Tracking Any Point (TAP)?','https://arxiv.org/abs/2604.10582']
+    ]
+  },
+  {
+    date: '2026-04-13',
+    top5: [
+      {
+        title: 'VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images',
+        url: 'https://arxiv.org/abs/2604.09531',
+        note: 'A scalable, annotation-light synthetic data pipeline aimed at a central weakness in current VLMs: visual perception.'
+      },
+      {
+        title: 'PhysInOne: Visual Physics Learning and Reasoning in One Suite',
+        url: 'https://arxiv.org/abs/2604.09415',
+        note: 'Introduces a very large physical video suite with rich annotations, useful for world models and embodied AI.'
+      },
+      {
+        title: 'Tango: Taming Visual Signals for Efficient Video Large Language Models',
+        url: 'https://arxiv.org/abs/2604.09547',
+        note: 'Reports near-original performance while keeping only a fraction of video tokens, making it highly practical.'
+      },
+      {
+        title: 'Envisioning the Future, One Step at a Time',
+        url: 'https://arxiv.org/abs/2604.09527',
+        note: 'Reframes future prediction around sparse point-trajectory dynamics for longer-horizon forecasting.'
+      },
+      {
+        title: 'MAG-3D: Multi-Agent Grounded Reasoning for 3D Understanding',
+        url: 'https://arxiv.org/abs/2604.09167',
+        note: 'A training-free multi-agent setup for grounded 3D reasoning with planning and geometric verification.'
+      }
+    ],
+    all: [
+      ['Tango: Taming Visual Signals for Efficient Video Large Language Models','https://arxiv.org/abs/2604.09547'],
+      ['EgoTL: Egocentric Think-Aloud Chains for Long-Horizon Tasks','https://arxiv.org/abs/2604.09535'],
+      ['Seeing is Believing: Robust Vision-Guided Cross-Modal Prompt Learning under Label Noise','https://arxiv.org/abs/2604.09532'],
+      ['VisionFoundry: Teaching VLMs Visual Perception with Synthetic Images','https://arxiv.org/abs/2604.09531'],
+      ['VL-Calibration: Decoupled Confidence Calibration for Large Vision-Language Models Reasoning','https://arxiv.org/abs/2604.09529'],
+      ['Envisioning the Future, One Step at a Time','https://arxiv.org/abs/2604.09527'],
+      ['VISOR: Agentic Visual Retrieval-Augmented Generation via Iterative Search and Over-horizon Reasoning','https://arxiv.org/abs/2604.09508'],
+      ['Online3R: Online Learning for Consistent Sequential Reconstruction Based on Geometry Foundation Model','https://arxiv.org/abs/2604.09480'],
+      ['AsymLoc: Towards Asymmetric Feature Matching for Efficient Visual Localization','https://arxiv.org/abs/2604.09445'],
+      ['SCoRe: Clean Image Generation from Diffusion Models Trained on Noisy Images','https://arxiv.org/abs/2604.09436'],
+      ['Rays as Pixels: Learning A Joint Distribution of Videos and Camera Trajectories','https://arxiv.org/abs/2604.09429'],
+      ['Do Vision Language Models Need to Process Image Tokens?','https://arxiv.org/abs/2604.09425'],
+      ['PhysInOne: Visual Physics Learning and Reasoning in One Suite','https://arxiv.org/abs/2604.09415'],
+      ['SynFlow: Scaling Up LiDAR Scene Flow Estimation with Synthetic Data','https://arxiv.org/abs/2604.09411'],
+      ['EGLOCE: Training-Free Energy-Guided Latent Optimization for Concept Erasure','https://arxiv.org/abs/2604.09405'],
+      ['EpiAgent: An Agent-Centric System for Ancient Inscription Restoration','https://arxiv.org/abs/2604.09367'],
+      ['Robust 4D Visual Geometry Transformer with Uncertainty-Aware Priors','https://arxiv.org/abs/2604.09366'],
+      ['Arbitration Failure, Not Perceptual Blindness: How Vision-Language Models Resolve Visual-Linguistic Conflicts','https://arxiv.org/abs/2604.09364'],
+      ['Visually-Guided Policy Optimization for Multimodal Reasoning','https://arxiv.org/abs/2604.09349'],
+      ['GeRM: A Generative Rendering Model From Physically Realistic to Photorealistic','https://arxiv.org/abs/2604.09304'],
+      ['FashionStylist: An Expert Knowledge-enhanced Multimodal Dataset for Fashion Understanding','https://arxiv.org/abs/2604.09249'],
+      ['Hitem3D 2.0: Multi-View Guided Native 3D Texture Generation','https://arxiv.org/abs/2604.09231'],
+      ['TinyNeRV: Compact Neural Video Representations via Capacity Scaling, Distillation, and Low-Precision Inference','https://arxiv.org/abs/2604.09220'],
+      ['CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation','https://arxiv.org/abs/2604.09201'],
+      ['MAG-3D: Multi-Agent Grounded Reasoning for 3D Understanding','https://arxiv.org/abs/2604.09167'],
+      ['Learning Vision-Language-Action World Models for Autonomous Driving','https://arxiv.org/abs/2604.09059'],
+      ['StreamMeCo: Long-Term Agent Memory Compression for Efficient Streaming Video Understanding','https://arxiv.org/abs/2604.09000'],
+      ['GeoMMBench and GeoMMAgent: Toward Expert-Level Multimodal Intelligence in Geoscience and Remote Sensing','https://arxiv.org/abs/2604.08896'],
+      ['WildDet3D: Scaling Promptable 3D Detection in the Wild','https://arxiv.org/abs/2604.08626'],
+      ['Ranked Activation Shift for Post-Hoc Out-of-Distribution Detection','https://arxiv.org/abs/2604.08572']
+    ]
+  },
+  {
+    date: '2026-04-12',
+    top5: [
+      {
+        title: 'MolmoWeb: Open Visual Web Agent and Open Data for the Open Web',
+        url: 'https://arxiv.org/abs/2604.08516',
+        note: 'Pairs an open multimodal web agent family with a large open training mixture and strong benchmark results.'
+      },
+      {
+        title: 'UniversalVTG: A Universal and Lightweight Foundation Model for Video Temporal Grounding',
+        url: 'https://arxiv.org/abs/2604.08522',
+        note: 'A single lightweight model that outperforms specialized VTG systems across diverse benchmarks.'
+      },
+      {
+        title: 'Visually-grounded Humanoid Agents',
+        url: 'https://arxiv.org/abs/2604.08509',
+        note: 'Unifies 3D reconstruction, human avatars, first-person perception, and planning into a humanoid-agent framework.'
+      },
+      {
+        title: 'PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models',
+        url: 'https://arxiv.org/abs/2604.08340',
+        note: 'A strong long-horizon benchmark that isolates pure vision-based decision-making and diagnoses deadlock failure.'
+      },
+      {
+        title: 'Novel View Synthesis as Video Completion',
+        url: 'https://arxiv.org/abs/2604.08500',
+        note: 'Reframes sparse novel view synthesis as video completion, leveraging video diffusion multi-view priors.'
+      }
+    ],
+    all: [
+      ['ETCH-X: Robustify Expressive Body Fitting to Clothed Humans with Composable Datasets','https://arxiv.org/abs/2604.08548'],
+      ['GaussiAnimate: Reconstruct and Rig Animatable Categories with Level of Dynamics','https://arxiv.org/abs/2604.08547'],
+      ['When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models','https://arxiv.org/abs/2604.08546'],
+      ['Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models','https://arxiv.org/abs/2604.08545'],
+      ['Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction','https://arxiv.org/abs/2604.08542'],
+      ['OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks','https://arxiv.org/abs/2604.08539'],
+      ['RewardFlow: Generate Images by Optimizing What You Reward','https://arxiv.org/abs/2604.08536'],
+      ['Self-Improving 4D Perception via Self-Distillation','https://arxiv.org/abs/2604.08532'],
+      ['FIT: A Large-Scale Dataset for Fit-Aware Virtual Try-On','https://arxiv.org/abs/2604.08526'],
+      ['UniversalVTG: A Universal and Lightweight Foundation Model for Video Temporal Grounding','https://arxiv.org/abs/2604.08522'],
+      ['MolmoWeb: Open Visual Web Agent and Open Data for the Open Web','https://arxiv.org/abs/2604.08516'],
+      ['Visually-grounded Humanoid Agents','https://arxiv.org/abs/2604.08509'],
+      ['Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics','https://arxiv.org/abs/2604.08503'],
+      ['Novel View Synthesis as Video Completion','https://arxiv.org/abs/2604.08500'],
+      ['OVS-DINO: Open-Vocabulary Segmentation via Structure-Aligned SAM-DINO with Language Guidance','https://arxiv.org/abs/2604.08461'],
+      ['CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding and Reasoning','https://arxiv.org/abs/2604.08457'],
+      ['BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields','https://arxiv.org/abs/2604.08410'],
+      ['PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models','https://arxiv.org/abs/2604.08340'],
+      ['InstAP: Instance-Aware Vision-Language Pre-Train for Spatial-Temporal Understanding','https://arxiv.org/abs/2604.08337'],
+      ['GroundingAnomaly: Spatially-Grounded Diffusion for Few-Shot Anomaly Synthesis','https://arxiv.org/abs/2604.08301'],
+      ['Can Vision Language Models Judge Action Quality? An Empirical Evaluation','https://arxiv.org/abs/2604.08294'],
+      ['Revisiting Radar Perception With Spectral Point Clouds','https://arxiv.org/abs/2604.08282'],
+      ['Orion-Lite: Distilling LLM Reasoning into Efficient Vision-Only Driving Models','https://arxiv.org/abs/2604.08266'],
+      ['OceanMAE: A Foundation Model for Ocean Remote Sensing','https://arxiv.org/abs/2604.08171'],
+      ['Small Vision-Language Models are Smart Compressors for Long Video Understanding','https://arxiv.org/abs/2604.08120'],
+      ['AdaSpark: Adaptive Sparsity for Efficient Long-Video Understanding','https://arxiv.org/abs/2604.08077'],
+      ['3DrawAgent: Teaching LLM to Draw in 3D with Early Contrastive Experience','https://arxiv.org/abs/2604.08042'],
+      ['MotionScape: A Large-Scale Real-World Highly Dynamic UAV Video Dataset for World Models','https://arxiv.org/abs/2604.07991'],
+      ['AnomalyAgent: Agentic Industrial Anomaly Synthesis via Tool-Augmented Reinforcement Learning','https://arxiv.org/abs/2604.07900'],
+      ['HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents','https://arxiv.org/abs/2604.07430']
+    ]
+  }
+];
+
+const app = document.getElementById('app');
+
+function paperCard(paper, idx) {
+  return `
+    <article class="paper-card">
+      <div class="rank">${idx + 1}</div>
+      <h3><a href="${paper.url}" target="_blank" rel="noreferrer">${paper.title}</a></h3>
+      <p>${paper.note}</p>
+      <a href="${paper.url}" target="_blank" rel="noreferrer">Open paper</a>
+    </article>
+  `;
+}
+
+function daySection(day, index) {
+  const hiddenId = `all-${index}`;
+  return `
+    <section class="day-card">
+      <div class="day-header">
+        <div>
+          <h2>${day.date}</h2>
+          <div class="meta">Top 5 picks plus ${day.all.length} listed papers available below</div>
+        </div>
+      </div>
+
+      <div class="top5">
+        ${day.top5.map(paperCard).join('')}
+      </div>
+
+      <div class="actions">
+        <button class="toggle" data-target="${hiddenId}">See all papers</button>
+      </div>
+
+      <div id="${hiddenId}" class="all-list hidden">
+        <ul>
+          ${day.all.map(([title, url]) => `<li><a href="${url}" target="_blank" rel="noreferrer">${title}</a></li>`).join('')}
+        </ul>
+      </div>
+    </section>
+  `;
+}
+
+app.innerHTML = `
+  ${digestData.map(daySection).join('')}
+  <p class="footer-note">This site is currently seeded with the latest three daily digests and can be extended to update automatically each day.</p>
+`;
+
+document.querySelectorAll('.toggle').forEach((button) => {
+  button.addEventListener('click', () => {
+    const target = document.getElementById(button.dataset.target);
+    const isHidden = target.classList.toggle('hidden');
+    button.textContent = isHidden ? 'See all papers' : 'Hide full list';
+  });
+});
