@@ -1,7 +1,7 @@
 const digestData = {
   site: {
-    title: 'Computer Vision arXiv Digest',
-    description: 'Daily ranked top 5 cs.CV papers with expandable full listings.',
+    title: 'CV ArXiv Digest',
+    description: 'A refined daily selection of new computer vision papers from arXiv cs.CV.',
     updated_at: '2026-04-14'
   },
   entries: [
