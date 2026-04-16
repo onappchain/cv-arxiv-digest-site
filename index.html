@@ -12,163 +12,35 @@
 </head>
 <body>
   <div class="page-shell">
-    <header class="site-header">
+    <header class="site-header simple-header">
       <a class="brand" href="#top">CV ArXiv Digest</a>
-      <nav class="top-nav" aria-label="Primary navigation">
-        <a href="#overview">Overview</a>
-        <a href="#highlights">Highlights</a>
-        <a href="#digest">Digest</a>
-        <a href="#archive">Archive</a>
-      </nav>
-      <a class="nav-cta" href="#digest">Open digest</a>
+      <div class="header-meta">Top 5, date selector, search</div>
     </header>
 
     <main id="top">
-      <section class="hero section">
-        <div class="hero-copy">
-          <p class="eyebrow">Daily cs.CV selection</p>
-          <h1>The refined daily brief for new computer vision research.</h1>
-          <p class="hero-text">Track the most notable new arXiv computer vision papers in a quieter format built for fast scanning, better taste, and steady research momentum.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#digest">Browse today</a>
-            <a class="button button-secondary" href="#overview">See how it works</a>
-          </div>
-          <div class="hero-proof">
-            <div class="proof-card">
-              <span class="proof-label">Cadence</span>
-              <strong>Every morning</strong>
-            </div>
-            <div class="proof-card">
-              <span class="proof-label">Coverage</span>
-              <strong>arXiv cs.CV</strong>
-            </div>
-            <div class="proof-card">
-              <span class="proof-label">Format</span>
-              <strong>Ranked top 5 plus archive</strong>
-            </div>
-          </div>
-        </div>
-        <div class="hero-visual glass-panel" aria-hidden="true">
-          <div class="hero-visual-orbit orbit-one"></div>
-          <div class="hero-visual-orbit orbit-two"></div>
-          <div class="hero-visual-grid"></div>
-          <div class="hero-visual-card hero-visual-card-primary">
-            <span>Featured</span>
-            <strong>Top papers, distilled</strong>
-          </div>
-          <div class="hero-visual-card hero-visual-card-secondary">
-            <span>Archive</span>
-            <strong>Filter by day or keyword</strong>
-          </div>
-        </div>
-      </section>
-
-      <section id="overview" class="feature-band section section-split">
-        <div class="feature-copy">
-          <p class="eyebrow">Minimal by design</p>
-          <h2>Signal first, clutter removed.</h2>
-          <p>Each issue surfaces a concise ranked set of notable papers first, then keeps the full listing close at hand. The result feels more like a premium research brief than a feed.</p>
-        </div>
-        <div class="feature-visual glass-panel visual-stack">
-          <div class="mini-panel">
-            <span class="mini-label">Selection</span>
-            <strong>Top 5 that matter</strong>
-            <p>Fast context on why each paper stands out.</p>
-          </div>
-          <div class="mini-panel muted">
-            <span class="mini-label">Discovery</span>
-            <strong>Search without friction</strong>
-            <p>Find by title, summary, or day in a single pass.</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="highlights" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Highlights</p>
-          <h2>A cleaner reading surface for daily research.</h2>
-        </div>
-        <div class="highlight-grid">
-          <article class="highlight-card glass-panel">
-            <span class="card-kicker">01</span>
-            <h3>Premium landing experience</h3>
-            <p>Bold hero copy, restrained gradients, and subtle glass surfaces create a polished first impression without feeling loud.</p>
-          </article>
-          <article class="highlight-card glass-panel">
-            <span class="card-kicker">02</span>
-            <h3>Alternating content rhythm</h3>
-            <p>Launch-page sections alternate copy and visuals to keep the page elegant, spacious, and easy to scan on any screen size.</p>
-          </article>
-          <article class="highlight-card glass-panel">
-            <span class="card-kicker">03</span>
-            <h3>Working digest preserved</h3>
-            <p>The existing daily archive, filter controls, ranked cards, and expandable listings remain intact beneath the new narrative shell.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="feature-band section section-split reverse">
-        <div class="feature-visual glass-panel editorial-visual">
-          <div class="editorial-stat">
-            <span>Daily brief</span>
-            <strong>Fast context</strong>
-          </div>
-          <div class="editorial-lines">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div class="feature-copy">
-          <p class="eyebrow">Built for continuity</p>
-          <h2>A launch page on top, a practical archive underneath.</h2>
-          <p>The redesign introduces a more sophisticated product story while preserving the lightweight static implementation and the current digest data structure.</p>
-        </div>
-      </section>
-
-      <section class="cta-panel section glass-panel">
-        <div>
-          <p class="eyebrow">Daily access</p>
-          <h2>Open the archive and move straight into the latest papers.</h2>
-        </div>
-        <a class="button button-primary" href="#digest">View the digest</a>
-      </section>
-
       <section id="digest" class="digest-shell section">
-        <div class="section-heading digest-heading">
+        <div class="section-heading digest-heading simple-heading">
           <div>
-            <p class="eyebrow">Live digest</p>
-            <h2>Browse the ranked daily selections.</h2>
+            <p class="eyebrow">Daily cs.CV</p>
+            <h1>Top 5 notable papers</h1>
           </div>
-          <p class="section-note">Filter by day, search by topic, and expand the full listing when you want broader coverage.</p>
+          <p class="section-note">Choose a date or search titles and summaries.</p>
         </div>
 
         <section class="toolbar glass-panel">
           <div>
-            <label for="day-filter">Filter by day</label>
+            <label for="day-filter">Date</label>
             <select id="day-filter"></select>
           </div>
           <div>
-            <label for="search-input">Find a paper</label>
-            <input id="search-input" type="search" placeholder="Search titles and summaries" />
+            <label for="search-input">Search</label>
+            <input id="search-input" type="search" placeholder="Search papers" />
           </div>
         </section>
 
         <div id="app"></div>
       </section>
     </main>
-
-    <footer id="archive" class="site-footer glass-panel">
-      <div>
-        <p class="eyebrow">CV ArXiv Digest</p>
-        <h2>Research signal, presented with more care.</h2>
-      </div>
-      <div class="footer-meta">
-        <p>Daily ranked selections from new cs.CV submissions, paired with a searchable archive for deeper browsing.</p>
-        <a class="footer-link" href="#top">Back to top</a>
-      </div>
-    </footer>
   </div>
 
   <script src="app.js"></script>
