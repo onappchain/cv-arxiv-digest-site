@@ -44,6 +44,10 @@ function paperCard(paper) {
 
 function daySection(day) {
   const papers = normalizePapers(day);
+  const top5Urls = new Set(day.top5.map((paper) => paper.url));
+  const extraPapers = papers.filter((paper) => !top5Urls.has(paper.url));
+  const extraLabel = `${extraPapers.length} other paper${extraPapers.length === 1 ? '' : 's'}`;
+
   return `
     <section class="day-card">
       <div class="day-header">
@@ -55,12 +59,15 @@ function daySection(day) {
       <div class="top5">
         ${day.top5.map(paperCard).join('')}
       </div>
-      <div class="all-list visible">
-        <h3 class="list-title">All papers</h3>
-        <ul>
-          ${papers.map((paper) => `<li><a href="${escapeHtml(paper.url)}" target="_blank" rel="noreferrer">${escapeHtml(paper.title)}</a></li>`).join('')}
-        </ul>
-      </div>
+      <details class="all-list" ${extraPapers.length ? '' : 'disabled'}>
+        <summary class="all-list-summary">Show ${escapeHtml(extraLabel)}</summary>
+        <div class="all-list-body">
+          <h3 class="list-title">All other papers</h3>
+          <ul>
+            ${extraPapers.map((paper) => `<li><a href="${escapeHtml(paper.url)}" target="_blank" rel="noreferrer">${escapeHtml(paper.title)}</a></li>`).join('')}
+          </ul>
+        </div>
+      </details>
     </section>
   `;
 }

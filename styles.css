@@ -245,6 +245,45 @@ input:focus {
   margin-bottom: 12px;
 }
 
+.all-list {
+  border: 1px solid rgba(70, 52, 34, 0.10);
+  border-radius: 22px;
+  background: rgba(255,255,255,0.38);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.all-list[disabled] {
+  display: none;
+}
+
+.all-list-summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 16px 18px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.all-list-summary::-webkit-details-marker {
+  display: none;
+}
+
+.all-list-summary::after {
+  content: '+';
+  float: right;
+  color: var(--muted);
+}
+
+.all-list[open] .all-list-summary::after {
+  content: '-';
+}
+
+.all-list-body {
+  padding: 0 18px 18px;
+  border-top: 1px solid rgba(70, 52, 34, 0.10);
+}
+
 .all-list ul {
   list-style: none;
   padding: 0;
