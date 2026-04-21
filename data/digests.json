@@ -2,9 +2,106 @@
   "site": {
     "title": "Computer Vision arXiv Digest",
     "description": "Daily ranked top 5 cs.CV papers with expandable full listings.",
-    "updated_at": "2026-04-20"
+    "updated_at": "2026-04-21"
   },
   "entries": [
+    {
+      "date": "2026-04-21",
+      "top5": [
+        {
+          "rank": 1,
+          "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation",
+          "url": "https://arxiv.org/abs/2604.18486",
+          "summary": "OneVL is notable for showing that latent chain-of-thought can beat explicit chain-of-thought in autonomous driving when the latent space is jointly supervised by language and a visual world model. It directly targets a key bottleneck in VLA systems: preserving reasoning quality while reaching answer-only latency."
+        },
+        {
+          "rank": 2,
+          "title": "XEmbodied: A Foundation Model with Enhanced Geometric and Physical Cues for Large-Scale Embodied Environments",
+          "url": "https://arxiv.org/abs/2604.18484",
+          "summary": "This paper tackles a central weakness of generic VLMs for embodied settings by integrating explicit 3D geometric and physical cues instead of treating them as side information. The combination of structured 3D adapters, physical-signal distillation, and broad 18-benchmark evaluation makes it one of the strongest general embodied-model releases in this batch."
+        },
+        {
+          "rank": 3,
+          "title": "MultiWorld: Scalable Multi-Agent Multi-View Video World Models",
+          "url": "https://arxiv.org/abs/2604.18564",
+          "summary": "MultiWorld extends video world modeling beyond the usual single-agent setup to joint multi-agent, multi-view prediction with controllability and cross-view consistency. That shift is important for robotics, games, and simulation, where realistic interaction and view coherence matter as much as frame quality."
+        },
+        {
+          "rank": 4,
+          "title": "T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability",
+          "url": "https://arxiv.org/abs/2604.18573",
+          "summary": "T-REN addresses two important pain points at once: weak dense vision-language grounding and the token explosion that limits scaling to long videos. The reported gains on open-vocabulary segmentation, retrieval, and video parsing, while cutting token counts by 24x to 187x, make it a strong contribution for efficient multimodal perception."
+        },
+        {
+          "rank": 5,
+          "title": "Asset Harvester: Extracting 3D Assets from Autonomous Driving Logs for Simulation",
+          "url": "https://arxiv.org/abs/2604.18468",
+          "summary": "Asset Harvester is a system-level contribution aimed at converting sparse real-world driving observations into reusable, simulation-ready 3D assets. That makes it especially relevant for closed-loop AV simulation, where scene reconstruction alone is not enough for controllable object-level interaction and scalable testing."
+        }
+      ],
+      "papers": [
+        {
+          "title": "MUA: Mobile Ultra-detailed Animatable Avatars",
+          "url": "https://arxiv.org/abs/2604.18583"
+        },
+        {
+          "title": "ReCap: Lightweight Referential Grounding for Coherent Story Visualization",
+          "url": "https://arxiv.org/abs/2604.18575"
+        },
+        {
+          "title": "T-REN: Learning Text-Aligned Region Tokens Improves Dense Vision-Language Alignment and Scalability",
+          "url": "https://arxiv.org/abs/2604.18573"
+        },
+        {
+          "title": "Back into Plato's Cave: Examining Cross-modal Representational Convergence at Scale",
+          "url": "https://arxiv.org/abs/2604.18572"
+        },
+        {
+          "title": "MultiWorld: Scalable Multi-Agent Multi-View Video World Models",
+          "url": "https://arxiv.org/abs/2604.18564"
+        },
+        {
+          "title": "AnchorSeg: Language Grounded Query Banks for Reasoning Segmentation",
+          "url": "https://arxiv.org/abs/2604.18562"
+        },
+        {
+          "title": "SynAgent: Generalizable Cooperative Humanoid Manipulation via Solo-to-Cooperative Agent Synergy",
+          "url": "https://arxiv.org/abs/2604.18557"
+        },
+        {
+          "title": "Advancing Vision Transformer with Enhanced Spatial Priors",
+          "url": "https://arxiv.org/abs/2604.18549"
+        },
+        {
+          "title": "MetaCloak-JPEG: JPEG-Robust Adversarial Perturbation for Preventing Unauthorized DreamBooth-Based Deepfake Generation",
+          "url": "https://arxiv.org/abs/2604.18537"
+        },
+        {
+          "title": "UDM-GRPO: Stable and Efficient Group Relative Policy Optimization for Uniform Discrete Diffusion Models",
+          "url": "https://arxiv.org/abs/2604.18518"
+        },
+        {
+          "title": "S2H-DPO: Hardness-Aware Preference Optimization for Vision-Language Models",
+          "url": "https://arxiv.org/abs/2604.18512"
+        },
+        {
+          "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation",
+          "url": "https://arxiv.org/abs/2604.18486"
+        },
+        {
+          "title": "XEmbodied: A Foundation Model with Enhanced Geometric and Physical Cues for Large-Scale Embodied Environments",
+          "url": "https://arxiv.org/abs/2604.18484"
+        },
+        {
+          "title": "SemLT3D: Semantic-Guided Expert Distillation for Camera-only Long-Tailed 3D Object Detection",
+          "url": "https://arxiv.org/abs/2604.18476"
+        },
+        {
+          "title": "Asset Harvester: Extracting 3D Assets from Autonomous Driving Logs for Simulation",
+          "url": "https://arxiv.org/abs/2604.18468"
+        }
+      ]
+    },
     {
       "date": "2026-04-20",
       "top5": [
