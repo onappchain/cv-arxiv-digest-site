@@ -12,31 +12,31 @@
           "rank": 1,
           "title": "Sapiens2",
           "url": "https://arxiv.org/abs/2604.21681",
-          "summary": "Introduces a 0.4B-5B family of high-resolution human-centric vision transformers with unified masked-reconstruction plus self-distilled contrastive pretraining, 1B curated human images, and native 1K to 4K support, setting new state of the art across pose, body-part segmentation, normal estimation, pointmap, and albedo tasks."
+          "summary": "ICLR 2026. A 0.4-5B parameter transformer family for human-centric vision at up to 4K resolution. Combines masked image reconstruction with self-distilled contrastive pretraining on 1B curated images, setting new SOTA on pose (+4 mAP), body-part segmentation (+24.3 mIoU), normal estimation (-45.6% angular error), and adds pointmap/albedo tasks."
         },
         {
           "rank": 2,
           "title": "Context Unrolling in Omni Models",
           "url": "https://arxiv.org/abs/2604.21921",
-          "summary": "Presents Omni, a natively multimodal model trained jointly on text, images, video, 3D geometry, and hidden representations, and argues that explicit context unrolling across modalities improves multimodal generation, understanding, and reasoning fidelity."
+          "summary": "A unified multimodal model natively trained on text, images, videos, 3D geometry, and hidden representations. Introduces Context Unrolling, where the model explicitly reasons across multiple modal representations before producing predictions, enabling in-context generation of text, image, video, and 3D geometry."
         },
         {
           "rank": 3,
           "title": "Building a Precise Video Language with Human-AI Oversight",
           "url": "https://arxiv.org/abs/2604.21718",
-          "summary": "Builds open datasets, benchmarks, and the CHAI oversight framework for precise video captioning, using expert critique of model drafts to improve caption quality and to train stronger open video-language and video-generation systems with finer cinematographic control."
+          "summary": "CVPR 2026 Highlight. Defines a structured video captioning specification with hundreds of visual primitives co-developed with professional filmmakers. Introduces CHAI (Critique-based Human-AI Oversight) framework where experts revise model pre-captures, yielding a caption model that outperforms Gemini-3.1-Pro and fine-tunes Wan VLMs for 400-word cinematography prompts."
         },
         {
           "rank": 4,
           "title": "WorldMark: A Unified Benchmark Suite for Interactive Video World Models",
           "url": "https://arxiv.org/abs/2604.21686",
-          "summary": "Introduces a standardized benchmark for interactive image-to-video world models with shared action mappings, 500 test cases, and reusable evaluation tooling so models can be compared fairly on identical scenes, trajectories, visual quality, control alignment, and world consistency."
+          "summary": "First standardized benchmark for interactive image-to-video world models. Provides a unified WASD-style action-mapping layer across six models, 500 evaluation cases across difficulty tiers and viewpoints, and a modular toolkit for Visual Quality, Control Alignment, and World Consistency metrics. Launches World Model Arena for live leaderboards."
         },
         {
           "rank": 5,
           "title": "Vista4D: Video Reshooting with 4D Point Clouds",
           "url": "https://arxiv.org/abs/2604.21915",
-          "summary": "Proposes a 4D point-cloud-grounded framework for video reshooting that preserves scene dynamics while changing camera paths, improving 4D consistency, camera control, and visual quality over prior methods and enabling applications like scene expansion and recomposition."
+          "summary": "CVPR 2026. A video reshooting framework that grounds input video and target cameras in 4D point clouds with static pixel segmentation and 4D reconstruction. Re-synthesizes scenes from new camera trajectories while preserving content appearance. Generalizes to dynamic scene expansion and 4D recomposition."
         }
       ],
       "papers": [
