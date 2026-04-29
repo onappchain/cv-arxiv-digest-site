@@ -2,9 +2,390 @@
   "site": {
     "title": "Computer Vision arXiv Digest",
     "description": "Daily ranked top 5 cs.CV papers with expandable full listings.",
-    "updated_at": "2026-04-28"
+    "updated_at": "2026-04-29"
   },
   "entries": [
+    {
+      "date": "2026-04-29",
+      "top5": [
+        {
+          "rank": 1,
+          "title": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "url": "https://arxiv.org/abs/2604.24880",
+          "summary": "NVIDIA releases Nemotron 3 Nano Omni, an efficient open multimodal model extending their open AI ecosystem. The model delivers strong performance across vision, language, and multimodal understanding tasks while maintaining a small parameter footprint."
+        },
+        {
+          "rank": 2,
+          "title": "VibeToken: Scaling 1D Image Tokenizers and Autoregressive Models for Dynamic Resolution Generations",
+          "url": "https://arxiv.org/abs/2604.24885",
+          "summary": "CVPR'26 accepted (Sony Research). Introduces a resolution-agnostic 1D Transformer tokenizer that encodes images into 32-256 dynamic tokens. VibeToken-Gen synthesizes 1024x1024 images with only 64 tokens at 3.94 gFID, achieving 63.4x fewer FLOPs than LlamaGen while narrowing the gap to diffusion models."
+        },
+        {
+          "rank": 3,
+          "title": "Power Foam: Unifying Real-Time Differentiable Ray Tracing and Rasterization",
+          "url": "https://arxiv.org/abs/2604.24994",
+          "summary": "Google research presents a differentiable 3D representation unifying foam-based ray tracing with rasterization efficiency. Generalizes Voronoi foams to bounded power diagrams, adds oriented surface formulation, and achieves rasterization performance competitive with 3DGS while preserving state-of-the-art ray tracing."
+        },
+        {
+          "rank": 4,
+          "title": "A Systematic Post-Train Framework for Video Generation",
+          "url": "https://arxiv.org/abs/2604.25427",
+          "summary": "Proposes a comprehensive post-training framework for video diffusion models with four stages: SFT for instruction-following, GRPO-based RLHF for perceptual quality and temporal coherence, prompt enhancement via a specialized LM, and inference optimization. Provides a practical blueprint for scalable post-training pipelines."
+        },
+        {
+          "rank": 5,
+          "title": "The Thinking Pixel: Recursive Sparse Reasoning in Multimodal Diffusion Latents",
+          "url": "https://arxiv.org/abs/2604.25299",
+          "summary": "Introduces a recursive sparse mixture-of-experts framework into diffusion models, using a gating network to dynamically select specialized neural modules conditioned on visual tokens, diffusion timestep, and conditioning. Demonstrates superiority on ImageNet generation, GenEval, and DPG benchmarks."
+        }
+      ],
+      "papers": [
+        {
+          "title": "Robust Deepfake Detection: Mitigating Spatial Attention Drift via Calibrated Complementary Ensembles",
+          "url": "https://arxiv.org/abs/2604.25889"
+        },
+        {
+          "title": "No Pedestrian Left Behind: Real-Time Detection and Tracking of Vulnerable Road Users for Adaptive Traffic Signal Control",
+          "url": "https://arxiv.org/abs/2604.25887"
+        },
+        {
+          "title": "SIEVES: Selective Prediction Generalizes through Visual Evidence Scoring",
+          "url": "https://arxiv.org/abs/2604.25855"
+        },
+        {
+          "title": "Mutual Forcing: Dual-Mode Self-Evolution for Fast Autoregressive Audio-Video Character Generation",
+          "url": "https://arxiv.org/abs/2604.25819"
+        },
+        {
+          "title": "Magnification-Invariant Image Classification via Domain Generalization and Stable Sparse Embedding Signatures",
+          "url": "https://arxiv.org/abs/2604.25817"
+        },
+        {
+          "title": "Instruction-Evidence Contrastive Dual-Stream Decoding for Grounded Vision-Language Reasoning",
+          "url": "https://arxiv.org/abs/2604.25809"
+        },
+        {
+          "title": "Improving Diversity in Black-box Few-shot Knowledge Distillation",
+          "url": "https://arxiv.org/abs/2604.25795"
+        },
+        {
+          "title": "Sketch2Arti: Sketch-based Articulation Modeling of CAD Objects",
+          "url": "https://arxiv.org/abs/2604.25781"
+        },
+        {
+          "title": "Toward Multimodal Conversational AI for Age-Related Macular Degeneration",
+          "url": "https://arxiv.org/abs/2604.25720"
+        },
+        {
+          "title": "QB-LIF: Learnable-Scale Quantized Burst Neurons for Efficient SNNs",
+          "url": "https://arxiv.org/abs/2604.25688"
+        },
+        {
+          "title": "Exploring Remote Photoplethysmography for Neonatal Pain Detection from Facial Videos",
+          "url": "https://arxiv.org/abs/2604.25680"
+        },
+        {
+          "title": "SAMe: A Semantic Anatomy Mapping Engine for Robotic Ultrasound",
+          "url": "https://arxiv.org/abs/2604.25646"
+        },
+        {
+          "title": "Prefill-Time Intervention for Mitigating Hallucination in Large Vision-Language Models",
+          "url": "https://arxiv.org/abs/2604.25642"
+        },
+        {
+          "title": "Refinement via Regeneration: Enlarging Modification Space Boosts Image Refinement in Unified Multimodal Models",
+          "url": "https://arxiv.org/abs/2604.25636"
+        },
+        {
+          "title": "Control Your Queries: Heterogeneous Query Interaction for Camera-Radar Fusion",
+          "url": "https://arxiv.org/abs/2604.25574"
+        },
+        {
+          "title": "Vision SmolMamba: Spike-Guided Token Pruning for Energy-Efficient Spiking State-Space Vision Models",
+          "url": "https://arxiv.org/abs/2604.25570"
+        },
+        {
+          "title": "TopoMamba: Topology-Aware Scanning and Fusion for Segmenting Heterogeneous Medical Visual Media",
+          "url": "https://arxiv.org/abs/2604.25545"
+        },
+        {
+          "title": "DualGeo: A Dual-View Framework for Worldwide Image Geo-localization",
+          "url": "https://arxiv.org/abs/2604.25533"
+        },
+        {
+          "title": "The Surprising Effectiveness of Canonical Knowledge Distillation for Semantic Segmentation",
+          "url": "https://arxiv.org/abs/2604.25530"
+        },
+        {
+          "title": "The Forensic Cost of Watermark Removal",
+          "url": "https://arxiv.org/abs/2604.25491"
+        },
+        {
+          "title": "DDA-Thinker: Decoupled Dual-Atomic Reinforcement Learning for Reasoning-Driven Image Editing",
+          "url": "https://arxiv.org/abs/2604.25477"
+        },
+        {
+          "title": "Generalizable Human Gaussian Splatting via Multi-view Semantic Consistency",
+          "url": "https://arxiv.org/abs/2604.25466"
+        },
+        {
+          "title": "Image Compression with Bubble-Aware Frame Rate Adaptation for Energy-Efficient Video Capsule Endoscopy",
+          "url": "https://arxiv.org/abs/2604.25464"
+        },
+        {
+          "title": "GramSR: Visual Feature Conditioning for Diffusion-Based Super-Resolution",
+          "url": "https://arxiv.org/abs/2604.25457"
+        },
+        {
+          "title": "SARU: A Shadow-Aware and Removal Unified Framework for Remote Sensing Images with New Benchmarks",
+          "url": "https://arxiv.org/abs/2604.25432"
+        },
+        {
+          "title": "A Systematic Post-Train Framework for Video Generation",
+          "url": "https://arxiv.org/abs/2604.25427"
+        },
+        {
+          "title": "Beyond Fidelity: Semantic Similarity Assessment in Low-Level Image Processing",
+          "url": "https://arxiv.org/abs/2604.25408"
+        },
+        {
+          "title": "Leveraging Previous-Traversal Point Cloud Map Priors for Camera-Based 3D Object Detection and Tracking",
+          "url": "https://arxiv.org/abs/2604.25405"
+        },
+        {
+          "title": "COMPASS: COmpact Multi-channel Prior-map And Scene Signature for Floor-Plan-Based Visual Localization",
+          "url": "https://arxiv.org/abs/2604.25388"
+        },
+        {
+          "title": "Benchmarking and Improving GUI Agents in High-Dynamic Environments",
+          "url": "https://arxiv.org/abs/2604.25380"
+        },
+        {
+          "title": "CoRE: Concept-Reasoning Expansion for Continual Brain Lesion Segmentation",
+          "url": "https://arxiv.org/abs/2604.25376"
+        },
+        {
+          "title": "GPT-Image-2 in the Wild: A Twitter Dataset of Self-Reported AI-Generated Images from the First Week of Deployment",
+          "url": "https://arxiv.org/abs/2604.25370"
+        },
+        {
+          "title": "Self-DACE++: Robust Low-Light Enhancement via Efficient Adaptive Curve Estimation",
+          "url": "https://arxiv.org/abs/2604.25367"
+        },
+        {
+          "title": "HuM-Eval: A Coarse-to-Fine Framework for Human-Centric Video Evaluation",
+          "url": "https://arxiv.org/abs/2604.25361"
+        },
+        {
+          "title": "Benchmarking Layout-Guided Diffusion Models through Unified Semantic-Spatial Evaluation in Closed and Open Settings",
+          "url": "https://arxiv.org/abs/2604.25358"
+        },
+        {
+          "title": "Assessment of the quantitative impact of occlusal positioning splints on temporomandibular joint conditions",
+          "url": "https://arxiv.org/abs/2604.25322"
+        },
+        {
+          "title": "Edge-Cloud Collaborative Reconstruction via Structure-Aware Latent Diffusion for Downstream Remote Sensing Perception",
+          "url": "https://arxiv.org/abs/2604.25319"
+        },
+        {
+          "title": "Towards Robust Deep Learning-based Rumex Obtusifolius Detection from Drone Images",
+          "url": "https://arxiv.org/abs/2604.25316"
+        },
+        {
+          "title": "SaliencyDecor: Enhancing Neural Network Interpretability through Feature Decorrelation",
+          "url": "https://arxiv.org/abs/2604.25315"
+        },
+        {
+          "title": "Golden RPG: Confidence-Adaptive Region-Aware Noise for Compositional Text-to-Image Generation",
+          "url": "https://arxiv.org/abs/2604.25314"
+        },
+        {
+          "title": "Rapid tracking through strongly scattering media with physics-informed neuromorphic speckle analysis",
+          "url": "https://arxiv.org/abs/2604.25310"
+        },
+        {
+          "title": "DenseScout: Algorithm-System Co-design for Budgeted Tiny Object Selection on Edge Platforms",
+          "url": "https://arxiv.org/abs/2604.25300"
+        },
+        {
+          "title": "The Thinking Pixel: Recursive Sparse Reasoning in Multimodal Diffusion Latents",
+          "url": "https://arxiv.org/abs/2604.25299"
+        },
+        {
+          "title": "OmniVTG: A Large-Scale Dataset and Training Paradigm for Open-World Video Temporal Grounding",
+          "url": "https://arxiv.org/abs/2604.25276"
+        },
+        {
+          "title": "Combating Visual Neglect and Semantic Drift in Large Multimodal Models for Enhanced Cross-Modal Retrieval",
+          "url": "https://arxiv.org/abs/2604.25273"
+        },
+        {
+          "title": "Personalized Cross-Modal Emotional Correlation Learning for Speech-Preserving Facial Expression Manipulation",
+          "url": "https://arxiv.org/abs/2604.25255"
+        },
+        {
+          "title": "DRAGON: A Benchmark for Evidence-Grounded Visual Reasoning over Diagrams",
+          "url": "https://arxiv.org/abs/2604.25231"
+        },
+        {
+          "title": "When the Forger Is the Judge: GPT-Image-2 Cannot Recognize Its Own Faked Documents",
+          "url": "https://arxiv.org/abs/2604.25213"
+        },
+        {
+          "title": "Towards Seamless Lunar Mosaics: Deep Radiometric Normalization for Cross-Sensor Orbital Imagery Using Chandrayaan-2 TMC Data",
+          "url": "https://arxiv.org/abs/2604.25208"
+        },
+        {
+          "title": "Image Classification via Random Dilated Convolution with Multi-Branch Feature Extraction and Context Excitation",
+          "url": "https://arxiv.org/abs/2604.25188"
+        },
+        {
+          "title": "FCMBench-Video: Benchmarking Document Video Intelligence",
+          "url": "https://arxiv.org/abs/2604.25186"
+        },
+        {
+          "title": "Lightweight Real-Time Rendering Parameter Optimization via XGBoost-Driven Lookup Tables",
+          "url": "https://arxiv.org/abs/2604.25178"
+        },
+        {
+          "title": "Benchmarking OCR Pipelines with Adaptive Enhancement for Multi-Domain Retail Bill Digitization",
+          "url": "https://arxiv.org/abs/2604.25176"
+        },
+        {
+          "title": "IAM: Identity-Aware Human Motion and Shape Joint Generation",
+          "url": "https://arxiv.org/abs/2604.25164"
+        },
+        {
+          "title": "ResetEdit: Precise Text-guided Editing of Generated Image via Resettable Starting Latent",
+          "url": "https://arxiv.org/abs/2604.25128"
+        },
+        {
+          "title": "M$^3$-VQA: A Benchmark for Multimodal, Multi-Entity, Multi-Hop Visual Question Answering",
+          "url": "https://arxiv.org/abs/2604.25122"
+        },
+        {
+          "title": "One Perturbation, Two Failure Modes: Probing VLM Safety via Embedding-Guided Typographic Perturbations",
+          "url": "https://arxiv.org/abs/2604.25102"
+        },
+        {
+          "title": "Beyond Accuracy: Benchmarking Cross-Task Consistency in Unified Multimodal Models",
+          "url": "https://arxiv.org/abs/2604.25072"
+        },
+        {
+          "title": "ShapeY: A Principled Framework for Measuring Shape Recognition Capacity via Nearest-Neighbor Matching",
+          "url": "https://arxiv.org/abs/2604.25065"
+        },
+        {
+          "title": "BifDet: A 3D Bifurcation Detection Dataset for Airway-Tree Modeling",
+          "url": "https://arxiv.org/abs/2604.24999"
+        },
+        {
+          "title": "DouC: Dual-Branch CLIP for Training-Free Open-Vocabulary Segmentation",
+          "url": "https://arxiv.org/abs/2604.24997"
+        },
+        {
+          "title": "A New Kind of Network? Review and Reference Implementation of Neural Cellular Automata",
+          "url": "https://arxiv.org/abs/2604.24990"
+        },
+        {
+          "title": "ViPO: Visual Preference Optimization at Scale",
+          "url": "https://arxiv.org/abs/2604.24953"
+        },
+        {
+          "title": "Learning from Noisy Preferences: A Semi-Supervised Learning Approach to Direct Preference Optimization",
+          "url": "https://arxiv.org/abs/2604.24952"
+        },
+        {
+          "title": "Subjective Portrait Region Cropping in Landscape Videos with Temporal Annotation Smoothing",
+          "url": "https://arxiv.org/abs/2604.24947"
+        },
+        {
+          "title": "Agentic AI for Remote Sensing: Technical Challenges and Research Directions",
+          "url": "https://arxiv.org/abs/2604.24919"
+        },
+        {
+          "title": "Interactive Episodic Memory with User Feedback",
+          "url": "https://arxiv.org/abs/2604.24893"
+        },
+        {
+          "title": "VibeToken: Scaling 1D Image Tokenizers and Autoregressive Models for Dynamic Resolution Generations",
+          "url": "https://arxiv.org/abs/2604.24885"
+        },
+        {
+          "title": "Learning Illumination Control in Diffusion Models",
+          "url": "https://arxiv.org/abs/2604.24877"
+        },
+        {
+          "title": "ESICA: A Scalable Framework for Text-Guided 3D Medical Image Segmentation",
+          "url": "https://arxiv.org/abs/2604.24876"
+        },
+        {
+          "title": "QCalEval: Benchmarking Vision-Language Models for Quantum Calibration Plot Understanding",
+          "url": "https://arxiv.org/abs/2604.25884"
+        },
+        {
+          "title": "Diverse Image Priors for Black-box Data-free Knowledge Distillation",
+          "url": "https://arxiv.org/abs/2604.25794"
+        },
+        {
+          "title": "Quantum-Inspired Robust and Scalable SAR Object Classification",
+          "url": "https://arxiv.org/abs/2604.25755"
+        },
+        {
+          "title": "Robustness Evaluation of a Foundation Segmentation Model Under Simulated Domain Shifts in Abdominal CT: Implications for Health Digital Twin Deployment",
+          "url": "https://arxiv.org/abs/2604.25685"
+        },
+        {
+          "title": "GeoSearch: Augmenting Worldwide Geolocalization with Web-Scale Reverse Image Search and Image Matching",
+          "url": "https://arxiv.org/abs/2604.25390"
+        },
+        {
+          "title": "PhyloSDF: Phylogenetically-Conditioned Neural Generation of 3D Skull Morphology via Residual Flow Matching",
+          "url": "https://arxiv.org/abs/2604.25371"
+        },
+        {
+          "title": "Exploring Time Conditioning in Diffusion Generative Models from Disjoint Noisy Data Manifolds",
+          "url": "https://arxiv.org/abs/2604.25289"
+        },
+        {
+          "title": "VLM Judges Can Rank but Cannot Score: Task-Dependent Uncertainty in Multimodal Evaluation",
+          "url": "https://arxiv.org/abs/2604.25235"
+        },
+        {
+          "title": "8DNA: 8D Neural Asset Light Transport by Distribution Learning",
+          "url": "https://arxiv.org/abs/2604.25129"
+        },
+        {
+          "title": "Scalable Secure Biometric Authentication without Auxiliary Identifiers",
+          "url": "https://arxiv.org/abs/2604.25071"
+        },
+        {
+          "title": "Power Foam: Unifying Real-Time Differentiable Ray Tracing and Rasterization",
+          "url": "https://arxiv.org/abs/2604.24994"
+        },
+        {
+          "title": "Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence",
+          "url": "https://arxiv.org/abs/2604.24954"
+        },
+        {
+          "title": "Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System",
+          "url": "https://arxiv.org/abs/2604.24921"
+        },
+        {
+          "title": "VISION-SLS: Safe Perception-Based Control from Learned Visual Representations via System Level Synthesis",
+          "url": "https://arxiv.org/abs/2604.24894"
+        },
+        {
+          "title": "CRC-SAM: SAM-Based Multi-Modal Segmentation and Quantification of Colorectal Cancer in CT, Colonoscopy, and Histology Images",
+          "url": "https://arxiv.org/abs/2604.24793"
+        },
+        {
+          "title": "Automated detection of pediatric congenital heart disease from phonocardiograms using deep and handcrafted feature fusion",
+          "url": "https://arxiv.org/abs/2604.24767"
+        }
+      ]
+    },
     {
       "date": "2026-04-28",
       "top5": [
