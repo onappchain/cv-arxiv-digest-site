@@ -10,36 +10,40 @@
       "top5": [
         {
           "rank": 1,
-          "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
-          "url": "https://arxiv.org/abs/2604.28196",
-          "summary": "HERMES++ extends ICCV 25 work to a unified driving world model for 3D scene understanding and generation; strong continuity from prior conference publication."
+          "title": "Faster 3D Gaussian Splatting Convergence via Structure-Aware Densification",
+          "url": "https://arxiv.org/abs/2604.28016",
+          "summary": "Accelerates 3D Gaussian Splatting convergence via structure-aware densification, accepted at SIGGRAPH 2026. Addresses one of the biggest bottlenecks in GS-based rendering."
         },
         {
           "rank": 2,
-          "title": "Action Motifs: Self-Supervised Hierarchical Representation of Human Body Movements",
-          "url": "https://arxiv.org/abs/2604.28173",
-          "summary": "Action Motifs introduces self-supervised hierarchical body-movement representations; accepted as a CVPR 2026 Highlight."
+          "title": "MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons",
+          "url": "https://arxiv.org/abs/2604.28130",
+          "summary": "MoCapAnything V2 extends the 'Anything' series to end-to-end motion capture for arbitrary skeletons, enabling broad applicability beyond human-specific rigs."
         },
         {
           "rank": 3,
-          "title": "ClipTBP: Clip-Pair based Temporal Boundary Prediction with Boundary-Aware Learning for Moment Retrieval",
-          "url": "https://arxiv.org/abs/2604.27591",
-          "summary": "ClipTBP proposes clip-pair temporal boundary prediction for video moment retrieval; tackles a core video understanding problem."
+          "title": "PhyCo: Learning Controllable Physical Priors for Generative Motion",
+          "url": "https://arxiv.org/abs/2604.28169",
+          "summary": "PhyCo (CVPR 2026) learns controllable physical priors for generative motion, grounding video generation in realistic dynamics rather than purely data-driven patterns."
         },
         {
           "rank": 4,
-          "title": "Fake3DGS: A Benchmark for 3D Manipulation Detection in Neural Rendering",
-          "url": "https://arxiv.org/abs/2604.27590",
-          "summary": "Fake3DGS creates a benchmark for detecting 3D manipulation in neural rendering (Gaussian Splatting); timely given the rapid adoption of 3DGS."
+          "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
+          "url": "https://arxiv.org/abs/2604.28196",
+          "summary": "HERMES++ is an extended version of the ICCV 2025 HERMES driving world model, unifying 3D scene understanding and generation for autonomous driving."
         },
         {
           "rank": 5,
-          "title": "Generalizable Sparse-View 3D Reconstruction from Unconstrained Images",
-          "url": "https://arxiv.org/abs/2604.28193",
-          "summary": "Notable recent submission in computer vision."
+          "title": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
+          "url": "https://arxiv.org/abs/2604.28185",
+          "summary": "A broad survey on visual generation evolution from atomic mapping to agentic world modeling, covering the landscape of emerging AI-driven visual synthesis."
         }
       ],
       "papers": [
+        {
+          "title": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction",
+          "url": "https://arxiv.org/abs/2604.28197"
+        },
         {
           "title": "HERMES++: Toward a Unified Driving World Model for 3D Scene Understanding and Generation",
           "url": "https://arxiv.org/abs/2604.28196"
@@ -47,6 +51,10 @@
         {
           "title": "Generalizable Sparse-View 3D Reconstruction from Unconstrained Images",
           "url": "https://arxiv.org/abs/2604.28193"
+        },
+        {
+          "title": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models",
+          "url": "https://arxiv.org/abs/2604.28192"
         },
         {
           "title": "Representation Fr\u00e9chet Loss for Visual Generation",
@@ -73,7 +81,7 @@
           "url": "https://arxiv.org/abs/2604.28169"
         },
         {
-          "title": "Continuous-tone Simple Points: An \\ell\\_0-Norm of Cyclic Gradient for Topology-Preserving Data-Driven Image Segmentation",
+          "title": "Continuous-tone Simple Points: An \\\\ell\\_0-Norm of Cyclic Gradient for Topology-Preserving Data-Driven Image Segmentation",
           "url": "https://arxiv.org/abs/2604.28159"
         },
         {
@@ -99,6 +107,10 @@
         {
           "title": "Beyond Gaussian Bottlenecks: Topologically Aligned Encoding of Vision-Transformer Feature Spaces",
           "url": "https://arxiv.org/abs/2604.28122"
+        },
+        {
+          "title": "FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction",
+          "url": "https://arxiv.org/abs/2604.28115"
         },
         {
           "title": "UHR-Net: An Uncertainty-Aware Hypergraph Refinement Network for Medical Image Segmentation",
@@ -149,6 +161,14 @@
           "url": "https://arxiv.org/abs/2604.27958"
         },
         {
+          "title": "GUI Agents with Reinforcement Learning: Toward Digital Inhabitants",
+          "url": "https://arxiv.org/abs/2604.27955"
+        },
+        {
+          "title": "The Effects of Visual Priming on Cooperative Behavior in Vision-Language Models",
+          "url": "https://arxiv.org/abs/2604.27953"
+        },
+        {
           "title": "Dynamic Cluster Data Sampling for Efficient and Long-Tail-Aware Vision-Language Pre-training",
           "url": "https://arxiv.org/abs/2604.27932"
         },
@@ -193,6 +213,10 @@
           "url": "https://arxiv.org/abs/2604.27759"
         },
         {
+          "title": "Physically-Informed Fuzzy Clustering of Vertical Sounding Ionograms",
+          "url": "https://arxiv.org/abs/2604.27721"
+        },
+        {
           "title": "Improving Calibration in Test-Time Prompt Tuning for Vision-Language Models via Data-Free Flatness-Aware Prompt Pretraining",
           "url": "https://arxiv.org/abs/2604.27715"
         },
@@ -225,6 +249,10 @@
           "url": "https://arxiv.org/abs/2604.27653"
         },
         {
+          "title": "Robot Learning from Human Videos: A Survey",
+          "url": "https://arxiv.org/abs/2604.27621"
+        },
+        {
           "title": "SpaAct: Spatially-Activated Transition Learning with Curriculum Adaptation for Vision-Language Navigation",
           "url": "https://arxiv.org/abs/2604.27620"
         },
@@ -233,12 +261,20 @@
           "url": "https://arxiv.org/abs/2604.27617"
         },
         {
+          "title": "ZAYAN: Disentangled Contrastive Transformer for Tabular Remote Sensing Data",
+          "url": "https://arxiv.org/abs/2604.27606"
+        },
+        {
           "title": "Decoding Scientific Experimental Images: The SPUR Benchmark for Perception, Understanding, and Reasoning",
           "url": "https://arxiv.org/abs/2604.27604"
         },
         {
           "title": "SECOS: Semantic Capture for Rigorous Classification in Open-World Semi-Supervised Learning",
           "url": "https://arxiv.org/abs/2604.27596"
+        },
+        {
+          "title": "An Extended Evaluation Split for DeepSpaceYoloDataset",
+          "url": "https://arxiv.org/abs/2604.27593"
         },
         {
           "title": "ClipTBP: Clip-Pair based Temporal Boundary Prediction with Boundary-Aware Learning for Moment Retrieval",
@@ -275,6 +311,10 @@
         {
           "title": "Adjoint Inversion Reveals Holographic Superposition and Destructive Interference in CNN Classifiers",
           "url": "https://arxiv.org/abs/2604.27529"
+        },
+        {
+          "title": "FMCL: Class-Aware Client Clustering with Foundation Model Representations for Heterogeneous Federated Learning",
+          "url": "https://arxiv.org/abs/2604.27510"
         },
         {
           "title": "Leveraging Verifier-Based Reinforcement Learning in Image Editing",
@@ -321,8 +361,16 @@
           "url": "https://arxiv.org/abs/2604.27389"
         },
         {
+          "title": "A Real-time Scale-robust Network for Glottis Segmentation in Nasal Transnasal Intubation",
+          "url": "https://arxiv.org/abs/2604.27383"
+        },
+        {
           "title": "VeraRetouch: A Lightweight Fully Differentiable Framework for Multi-Task Reasoning Photo Retouching",
           "url": "https://arxiv.org/abs/2604.27375"
+        },
+        {
+          "title": "DOT-Sim: Differentiable Optical Tactile Simulation with Precise Real-to-Sim Physical Calibration",
+          "url": "https://arxiv.org/abs/2604.27367"
         },
         {
           "title": "Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving",
@@ -337,6 +385,10 @@
           "url": "https://arxiv.org/abs/2604.27361"
         },
         {
+          "title": "AG-TAL: Anatomically-Guided Topology-Aware Loss for Multiclass Segmentation of the Circle of Willis Using Large-Scale Multi-Center Datasets",
+          "url": "https://arxiv.org/abs/2604.27357"
+        },
+        {
           "title": "Gait Recognition via Deep Residual Networks and Multi-Branch Feature Fusion",
           "url": "https://arxiv.org/abs/2604.27353"
         },
@@ -349,12 +401,32 @@
           "url": "https://arxiv.org/abs/2604.27335"
         },
         {
+          "title": "SQuadGen: Generating Simple Quad Layouts via Chart Distance Fields",
+          "url": "https://arxiv.org/abs/2604.27329"
+        },
+        {
+          "title": "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution",
+          "url": "https://arxiv.org/abs/2604.27326"
+        },
+        {
+          "title": "Representative Spectral Correlation Network for Multi-source Remote Sensing Image Classification",
+          "url": "https://arxiv.org/abs/2604.27323"
+        },
+        {
           "title": "YOSE: You Only Select Essential Tokens for Efficient DiT-based Video Object Removal",
           "url": "https://arxiv.org/abs/2604.27322"
         },
         {
+          "title": "PINN-Cast: Exploring the Role of Continuous-Depth NODE in Transformers and Physics Informed Loss as Soft Physical Constraints in Short-term Weather Forecasting",
+          "url": "https://arxiv.org/abs/2604.27313"
+        },
+        {
           "title": "Student Classroom Behavior Recognition Based on Improved YOLOv8s",
           "url": "https://arxiv.org/abs/2604.27293"
+        },
+        {
+          "title": "BrainDINO: A Brain MRI Foundation Model for Generalizable Clinical Representation Learning",
+          "url": "https://arxiv.org/abs/2604.27277"
         },
         {
           "title": "VTBench: A Multimodal Framework for Time-Series Classification with Chart-Based Representations",
@@ -391,78 +463,6 @@
         {
           "title": "Automated Detection of Mutual Gaze and Joint Attention in Dual-Camera Settings via Dual-Stream Transformers",
           "url": "https://arxiv.org/abs/2604.27105"
-        },
-        {
-          "title": "OmniRobotHome: A Multi-Camera Platform for Real-Time Multiadic Human-Robot Interaction",
-          "url": "https://arxiv.org/abs/2604.28197"
-        },
-        {
-          "title": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models",
-          "url": "https://arxiv.org/abs/2604.28192"
-        },
-        {
-          "title": "FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction",
-          "url": "https://arxiv.org/abs/2604.28115"
-        },
-        {
-          "title": "GUI Agents with Reinforcement Learning: Toward Digital Inhabitants",
-          "url": "https://arxiv.org/abs/2604.27955"
-        },
-        {
-          "title": "The Effects of Visual Priming on Cooperative Behavior in Vision-Language Models",
-          "url": "https://arxiv.org/abs/2604.27953"
-        },
-        {
-          "title": "Physically-Informed Fuzzy Clustering of Vertical Sounding Ionograms",
-          "url": "https://arxiv.org/abs/2604.27721"
-        },
-        {
-          "title": "Robot Learning from Human Videos: A Survey",
-          "url": "https://arxiv.org/abs/2604.27621"
-        },
-        {
-          "title": "ZAYAN: Disentangled Contrastive Transformer for Tabular Remote Sensing Data",
-          "url": "https://arxiv.org/abs/2604.27606"
-        },
-        {
-          "title": "An Extended Evaluation Split for DeepSpaceYoloDataset",
-          "url": "https://arxiv.org/abs/2604.27593"
-        },
-        {
-          "title": "FMCL: Class-Aware Client Clustering with Foundation Model Representations for Heterogeneous Federated Learning",
-          "url": "https://arxiv.org/abs/2604.27510"
-        },
-        {
-          "title": "A Real-time Scale-robust Network for Glottis Segmentation in Nasal Transnasal Intubation",
-          "url": "https://arxiv.org/abs/2604.27383"
-        },
-        {
-          "title": "DOT-Sim: Differentiable Optical Tactile Simulation with Precise Real-to-Sim Physical Calibration",
-          "url": "https://arxiv.org/abs/2604.27367"
-        },
-        {
-          "title": "AG-TAL: Anatomically-Guided Topology-Aware Loss for Multiclass Segmentation of the Circle of Willis Using Large-Scale Multi-Center Datasets",
-          "url": "https://arxiv.org/abs/2604.27357"
-        },
-        {
-          "title": "SQuadGen: Generating Simple Quad Layouts via Chart Distance Fields",
-          "url": "https://arxiv.org/abs/2604.27329"
-        },
-        {
-          "title": "Spectral Dynamic Attention Network for Hyperspectral Image Super-Resolution",
-          "url": "https://arxiv.org/abs/2604.27326"
-        },
-        {
-          "title": "Representative Spectral Correlation Network for Multi-source Remote Sensing Image Classification",
-          "url": "https://arxiv.org/abs/2604.27323"
-        },
-        {
-          "title": "PINN-Cast: Exploring the Role of Continuous-Depth NODE in Transformers and Physics Informed Loss as Soft Physical Constraints in Short-term Weather Forecasting",
-          "url": "https://arxiv.org/abs/2604.27313"
-        },
-        {
-          "title": "BrainDINO: A Brain MRI Foundation Model for Generalizable Clinical Representation Learning",
-          "url": "https://arxiv.org/abs/2604.27277"
         }
       ]
     },
