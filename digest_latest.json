@@ -1,0 +1,341 @@
+{
+  "date": "2026-05-06",
+  "top5": [
+    {
+      "rank": 1,
+      "title": "UniCorrn: Unified Correspondence Transformer Across 2D and 3D",
+      "url": "https://arxiv.org/abs/2605.04044",
+      "summary": "First unified correspondence model with shared weights across 2D-2D, 2D-3D, and 3D-3D matching. Introduces a novel dual-stream Transformer decoder that decouples appearance and positional features. Achieves +8% on 7Scenes (2D-3D) and +10% on 3DLoMatch (3D-3D) in registration recall, while maintaining competitive 2D-2D performance."
+    },
+    {
+      "rank": 2,
+      "title": "Large Language Models are Universal Reasoners for Visual Generation",
+      "url": "https://arxiv.org/abs/2605.04040",
+      "summary": "Proposes UniReasoner, a framework that leverages an LLM as a universal reasoner to close the understanding-generation gap in text-to-image models. Uses a Draft-Evaluate-Diffuse pipeline where the LLM generates a visual draft, critiques it for prompt consistency, and conditions a diffusion model on the joint signals. Improves GenEval from 0.79 to 0.88 without changing the diffusion backbone."
+    },
+    {
+      "rank": 3,
+      "title": "Mantis: Mamba-native Tuning is Efficient for 3D Point Cloud Foundation Models",
+      "url": "https://arxiv.org/abs/2605.03438",
+      "summary": "First Mamba-native parameter-efficient fine-tuning framework for 3D point cloud foundation models. Introduces State-Aware Adapter (SAA) that injects task-conditioned control into selective state-space updates, and Dual-Serialization Consistency Distillation (DSCD) for stable training. Achieves better-than-full-finetuning results with only ~5% trainable parameters, preserving Mamba's linear complexity."
+    },
+    {
+      "rank": 4,
+      "title": "Audio-Visual Intelligence in Large Foundation Models",
+      "url": "https://arxiv.org/abs/2605.04045",
+      "summary": "Comprehensive survey of audio-visual intelligence in large foundation models, covering architectures, training strategies, and downstream tasks across the audio-visual landscape. Provides a unified taxonomy and identifies key challenges and future directions at the intersection of vision and audio understanding."
+    },
+    {
+      "rank": 5,
+      "title": "StateVLM: A State-Aware Vision-Language Model for Robotic Affordance Reasoning",
+      "url": "https://arxiv.org/abs/2605.03927",
+      "summary": "Introduces a state-aware vision-language model that explicitly models object states and affordances for robotic manipulation. Enables reasoning about how object states change during interaction, improving performance on robotic affordance reasoning benchmarks by grounding visual understanding in physical state transitions."
+    }
+  ],
+  "papers": [
+    {
+      "title": "Audio-Visual Intelligence in Large Foundation Models",
+      "url": "https://arxiv.org/abs/2605.04045"
+    },
+    {
+      "title": "UniCorrn: Unified Correspondence Transformer Across 2D and 3D",
+      "url": "https://arxiv.org/abs/2605.04044"
+    },
+    {
+      "title": "Large Language Models are Universal Reasoners for Visual Generation",
+      "url": "https://arxiv.org/abs/2605.04040"
+    },
+    {
+      "title": "Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Capture",
+      "url": "https://arxiv.org/abs/2605.04035"
+    },
+    {
+      "title": "Enhanced 3D Brain Tumor Segmentation Using Assorted Precision Training",
+      "url": "https://arxiv.org/abs/2605.04008"
+    },
+    {
+      "title": "RD-ViT: Recurrent-Depth Vision Transformer for Semantic Segmentation with Reduce",
+      "url": "https://arxiv.org/abs/2605.03999"
+    },
+    {
+      "title": "3D Human Face Reconstruction with 3DMM face model from RGB image",
+      "url": "https://arxiv.org/abs/2605.03996"
+    },
+    {
+      "title": "Label-Efficient School Detection from Aerial Imagery via Weakly Supervised Pretr",
+      "url": "https://arxiv.org/abs/2605.03968"
+    },
+    {
+      "title": "UnAC: Adaptive Visual Prompting with Abstraction and Stepwise Checking for Compl",
+      "url": "https://arxiv.org/abs/2605.03950"
+    },
+    {
+      "title": "Reservoir property image slices from the Groningen gas field for image translati",
+      "url": "https://arxiv.org/abs/2605.03942"
+    },
+    {
+      "title": "A Benchmark for Interactive World Models with a Unified Action Generation Framew",
+      "url": "https://arxiv.org/abs/2605.03941"
+    },
+    {
+      "title": "StateVLM: A State-Aware Vision-Language Model for Robotic Affordance Reasoning",
+      "url": "https://arxiv.org/abs/2605.03927"
+    },
+    {
+      "title": "Raising the Ceiling: Better Empirical Fixation Densities for Saliency Benchmarki",
+      "url": "https://arxiv.org/abs/2605.03885"
+    },
+    {
+      "title": "DMGD: Train-Free Dataset Distillation with Semantic-Distribution Matching in Dif",
+      "url": "https://arxiv.org/abs/2605.03877"
+    },
+    {
+      "title": "A Deeper Dive into the Irreversibility of PolyProtect: Making Protected Face Tem",
+      "url": "https://arxiv.org/abs/2605.03857"
+    },
+    {
+      "title": "Stream-R1: Reliability-Perplexity Aware Reward Distillation for Streaming Video ",
+      "url": "https://arxiv.org/abs/2605.03848"
+    },
+    {
+      "title": "Parameter-Efficient Multi-View Proficiency Estimation: From Discriminative Class",
+      "url": "https://arxiv.org/abs/2605.03849"
+    },
+    {
+      "title": "Conditions for well-posed color recovery in scattering media",
+      "url": "https://arxiv.org/abs/2605.03837"
+    },
+    {
+      "title": "Identity-Consistent Multi-Pose Generation of Contactless Fingerprints",
+      "url": "https://arxiv.org/abs/2605.03830"
+    },
+    {
+      "title": "Multimodal Learning on Low-Quality Data with Conformal Predictive Self-Calibrati",
+      "url": "https://arxiv.org/abs/2605.03820"
+    },
+    {
+      "title": "Enhancing Visual Question Answering with Multimodal LLMs via Chain-of-Question G",
+      "url": "https://arxiv.org/abs/2605.03790"
+    },
+    {
+      "title": "A Robust Unsupervised Domain Adaptation Framework for Medical Image Classificati",
+      "url": "https://arxiv.org/abs/2605.03787"
+    },
+    {
+      "title": "ReLeaf: Benchmarking Leaf Segmentation across Domains and Species",
+      "url": "https://arxiv.org/abs/2605.03784"
+    },
+    {
+      "title": "GeoTopoDiff: Learning Geometry--Topology Graph Priors through Boundary-Constrain",
+      "url": "https://arxiv.org/abs/2605.03764"
+    },
+    {
+      "title": "Before Forgetting, Learn to Remember: Revisiting Foundational Learning Failures ",
+      "url": "https://arxiv.org/abs/2605.03759"
+    },
+    {
+      "title": "FluxFlow: Conservative Flow-Matching for Astronomical Image Super-Resolution",
+      "url": "https://arxiv.org/abs/2605.03749"
+    },
+    {
+      "title": "Unified Multimodal Visual Tracking with Dual Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2605.03716"
+    },
+    {
+      "title": "Real Image Denoising with Knowledge Distillation for High-Performance Mobile NPU",
+      "url": "https://arxiv.org/abs/2605.03680"
+    },
+    {
+      "title": "AniMatrix: An Anime Video Generation Model that Thinks in Art, Not Physics",
+      "url": "https://arxiv.org/abs/2605.03652"
+    },
+    {
+      "title": "Rethinking Temporal Consistency in Video Object-Centric Learning: From Predictio",
+      "url": "https://arxiv.org/abs/2605.03650"
+    },
+    {
+      "title": "The Detector Teaches Itself: Lightweight Self-Supervised Adaptation for Open-Voc",
+      "url": "https://arxiv.org/abs/2605.03642"
+    },
+    {
+      "title": "Diffusion Masked Pretraining for Dynamic Point Cloud",
+      "url": "https://arxiv.org/abs/2605.03639"
+    },
+    {
+      "title": "RPBA-Net: An Interpretable Residual Pyramid Bilateral Affine Network for RAW-Dom",
+      "url": "https://arxiv.org/abs/2605.03626"
+    },
+    {
+      "title": "PriorNet: Prior-Guided Engagement Estimation from Face Video",
+      "url": "https://arxiv.org/abs/2605.03615"
+    },
+    {
+      "title": "Uncertainty Estimation in Instance Segmentation of Affordances via Bayesian Visu",
+      "url": "https://arxiv.org/abs/2605.03614"
+    },
+    {
+      "title": "deSEO: Physics-Aware Dataset Creation for High-Resolution Satellite Image Shadow",
+      "url": "https://arxiv.org/abs/2605.03610"
+    },
+    {
+      "title": "MILE: Mixture of Incremental LoRA Experts for Continual Semantic Segmentation ac",
+      "url": "https://arxiv.org/abs/2605.03555"
+    },
+    {
+      "title": "Erase Persona, Forget Lore: Benchmarking Multimodal Copyright Unlearning in Larg",
+      "url": "https://arxiv.org/abs/2605.03547"
+    },
+    {
+      "title": "DALPHIN: Benchmarking Digital Pathology AI Copilots Against Pathologists on an O",
+      "url": "https://arxiv.org/abs/2605.03544"
+    },
+    {
+      "title": "BFORE: Butterfly-Firefly Optimized Retinex Enhancement for Low-Light Image Quali",
+      "url": "https://arxiv.org/abs/2605.03509"
+    },
+    {
+      "title": "Orientation-Aware Unsupervised Domain Adaptation for Brain Tumor Classification ",
+      "url": "https://arxiv.org/abs/2605.03490"
+    },
+    {
+      "title": "MHPR: Multidimensional Human Perception and Reasoning Benchmark for Large Vision",
+      "url": "https://arxiv.org/abs/2605.03485"
+    },
+    {
+      "title": "WorldJen: An End-to-End Multi-Dimensional Benchmark for Generative Video Models",
+      "url": "https://arxiv.org/abs/2605.03475"
+    },
+    {
+      "title": "First Shape, Then Meaning: Efficient Geometry and Semantics Learning for Indoor ",
+      "url": "https://arxiv.org/abs/2605.03463"
+    },
+    {
+      "title": "VL-SAM-v3: Memory-Guided Visual Priors for Open-World Object Detection",
+      "url": "https://arxiv.org/abs/2605.03456"
+    },
+    {
+      "title": "Mantis: Mamba-native Tuning is Efficient for 3D Point Cloud Foundation Models",
+      "url": "https://arxiv.org/abs/2605.03438"
+    },
+    {
+      "title": "Learning Discriminative Signed Distance Functions from Multi-scale Level-of-deta",
+      "url": "https://arxiv.org/abs/2605.03437"
+    },
+    {
+      "title": "MK-ResRecon: Multi-Kernel Residual Framework for Texture-Aware 3D MRI Refinement",
+      "url": "https://arxiv.org/abs/2605.03432"
+    },
+    {
+      "title": "TsallisPGD: Adaptive Gradient Weighting for Adversarial Attacks on Semantic Segm",
+      "url": "https://arxiv.org/abs/2605.03405"
+    },
+    {
+      "title": "GRPO-TTA: Test-Time Visual Tuning for Vision-Language Models via GRPO-Driven Rei",
+      "url": "https://arxiv.org/abs/2605.03403"
+    },
+    {
+      "title": "MASRA: MLLM-Assisted Semantic-Relational Consistent Alignment for Video Temporal",
+      "url": "https://arxiv.org/abs/2605.03398"
+    },
+    {
+      "title": "Enhancing Self-Supervised Talking Head Forgery Detection via a Training-Free Dua",
+      "url": "https://arxiv.org/abs/2605.03390"
+    },
+    {
+      "title": "SoDa2: Single-Stage Open-Set Domain Adaptation via Decoupled Alignment for Cross",
+      "url": "https://arxiv.org/abs/2605.03371"
+    },
+    {
+      "title": "Dual-Foundation Models for Unsupervised Domain Adaptation",
+      "url": "https://arxiv.org/abs/2605.03365"
+    },
+    {
+      "title": "Dynamic Distillation and Gradient Consistency for Robust Long-Tailed Incremental",
+      "url": "https://arxiv.org/abs/2605.03364"
+    },
+    {
+      "title": "Mix3R: Mixing Feed-forward Reconstruction and Generative 3D Priors for Joint Mul",
+      "url": "https://arxiv.org/abs/2605.03358"
+    },
+    {
+      "title": "Tracing Like a Clinician: Anatomy-Guided Spatial Priors for Cephalometric Landma",
+      "url": "https://arxiv.org/abs/2605.03359"
+    },
+    {
+      "title": "Can Multimodal Large Language Models Understand Pathologic Movements? A Pilot St",
+      "url": "https://arxiv.org/abs/2605.03352"
+    },
+    {
+      "title": "VLMaxxing through FrameMogging Training-Free Anti-Recomputation for Video Vision",
+      "url": "https://arxiv.org/abs/2605.03351"
+    },
+    {
+      "title": "MedSR-Vision: Deep Learning Framework for Multi-Domain Medical Image Super-Resol",
+      "url": "https://arxiv.org/abs/2605.03343"
+    },
+    {
+      "title": "FreeTimeGS++: Secrets of Dynamic Gaussian Splatting and Their Principles",
+      "url": "https://arxiv.org/abs/2605.03337"
+    },
+    {
+      "title": "AHPA: Adaptive Hierarchical Prior Alignment for Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2605.03317"
+    },
+    {
+      "title": "TACO: Trajectory Aligning Cross-view Optimisation",
+      "url": "https://arxiv.org/abs/2605.03315"
+    },
+    {
+      "title": "FACTOR: Counterfactual Training-Free Test-Time Adaptation for Open-Vocabulary Ob",
+      "url": "https://arxiv.org/abs/2605.03294"
+    },
+    {
+      "title": "VEBench:Benchmarking Large Multimodal Models for Real-World Video Editing",
+      "url": "https://arxiv.org/abs/2605.03276"
+    },
+    {
+      "title": "CropVLM: A Domain-Adapted Vision-Language Model for Open-Set Crop Analysis",
+      "url": "https://arxiv.org/abs/2605.03259"
+    },
+    {
+      "title": "Synthetic Data Generation for Long-Tail Medical Image Classification: A Case Stu",
+      "url": "https://arxiv.org/abs/2605.03221"
+    },
+    {
+      "title": "Sentinel2Cap: A Human-Annotated Benchmark Dataset for Multimodal Remote Sensing ",
+      "url": "https://arxiv.org/abs/2605.03189"
+    },
+    {
+      "title": "DINO Soars: DINOv3 for Open-Vocabulary Semantic Segmentation of Remote Sensing I",
+      "url": "https://arxiv.org/abs/2605.03175"
+    },
+    {
+      "title": "Boundary-Aware Uncertainty Quantification for Wildfire Spread Prediction",
+      "url": "https://arxiv.org/abs/2605.03148"
+    },
+    {
+      "title": "NucEval: A Robust Evaluation Framework for Nuclear Instance Segmentation",
+      "url": "https://arxiv.org/abs/2605.03144"
+    },
+    {
+      "title": "One Sequence to Segment Them All: Efficient Data Augmentation for CT and MRI Cro",
+      "url": "https://arxiv.org/abs/2605.03098"
+    },
+    {
+      "title": "Learning to Segment using Summary Statistics and Weak Supervision",
+      "url": "https://arxiv.org/abs/2605.03059"
+    },
+    {
+      "title": "Approaching human parity in the quality of automated organoid image segmentation",
+      "url": "https://arxiv.org/abs/2605.03053"
+    },
+    {
+      "title": "Reasoning-Guided Grounding: Elevating Video Anomaly Detection through Multimodal",
+      "url": "https://arxiv.org/abs/2605.02912"
+    },
+    {
+      "title": "Memorization In Stable Diffusion Is Unexpectedly Driven by CLIP Embeddings",
+      "url": "https://arxiv.org/abs/2605.02908"
+    }
+  ]
+}
