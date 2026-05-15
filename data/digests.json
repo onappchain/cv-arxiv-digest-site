@@ -2,7 +2,7 @@
   "site": {
     "title": "Computer Vision arXiv Digest",
     "description": "Daily ranked top 5 cs.CV papers with expandable full listings.",
-    "updated_at": "2026-05-13"
+    "updated_at": "2026-04-25"
   },
   "entries": [
     {
@@ -8443,6 +8443,203 @@
         {
           "title": "An Artifact-based Agent Framework for Adaptive and Reproducible Medical Image Processing",
           "url": "https://arxiv.org/abs/2604.21936"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "top5": [
+        {
+          "rank": 1,
+          "title": "EmoTrans: A Benchmark for Understanding, Reasoning, and Predicting Emotion Transitions in Multimodal LLMs",
+          "url": "https://arxiv.org/abs/2604.23348v1",
+          "summary": "Recent multimodal large language models (MLLMs) have shown strong capabilities in perception, reasoning, and generation, and are increasingly used in applications such as social robots and human-computer interaction, where understanding human emot."
+        },
+        {
+          "rank": 2,
+          "title": "SemiGDA: Generative Dual-distribution Alignment for Semi-Supervised Medical Image Segmentation",
+          "url": "https://arxiv.org/abs/2604.23274v1",
+          "summary": "Semi-supervised learning addresses label scarcity and high annotation costs in medical image segmentation by exploiting the latent information in unlabeled data to enhance model performance."
+        },
+        {
+          "rank": 3,
+          "title": "Learning from Noisy Prompts: Saliency-Guided Prompt Distillation for Robust Segmentation with SAM",
+          "url": "https://arxiv.org/abs/2604.23314v1",
+          "summary": "Segmentation is central to clinical diagnosis and monitoring, yet the reliability of modern foundation models in medical imaging still depends on the availability of precise prompts."
+        },
+        {
+          "rank": 4,
+          "title": "DyABD: The Abdominal Muscle Segmentation in Dynamic MRI Benchmark",
+          "url": "https://arxiv.org/abs/2604.23187v1",
+          "summary": "This work introduces DyABD, a novel and complex benchmark dataset of dynamic abdominal MRIs from patients with abdominal hernias and associated high quality abdominal muscle annotations."
+        },
+        {
+          "rank": 5,
+          "title": "From Pixels to Explanations: Interpretable Diabetic Retinopathy Grading with CNN-Transformer Ensembles, Visual Explainability and Vision-Language Models",
+          "url": "https://arxiv.org/abs/2604.23079v1",
+          "summary": "The quality of diabetic retinopathy (DR) screening relies on the ability to correctly grade severity; however, many deep-learning (DL) classifiers cannot be easily interpreted in the clinical context."
+        }
+      ],
+      "papers": [
+        {
+          "title": "From Pixels to Explanations: Interpretable Diabetic Retinopathy Grading with CNN-Transformer Ensembles, Visual Explainability and Vision-Language Models",
+          "url": "https://arxiv.org/abs/2604.23079v1"
+        },
+        {
+          "title": "Latent Space Probing for Adult Content Detection in Video Generative Models",
+          "url": "https://arxiv.org/abs/2605.00874v1"
+        },
+        {
+          "title": "Toward Real-World Adoption of Portrait Relighting via Hybrid Domain Knowledge Fusion",
+          "url": "https://arxiv.org/abs/2604.23094v1"
+        },
+        {
+          "title": "INSIGHT: Indoor Scene Intelligence from Geometric-Semantic Hierarchy Transfer for Public~Safety",
+          "url": "https://arxiv.org/abs/2604.23095v1"
+        },
+        {
+          "title": "Transferable Physical-World Adversarial Patches Against Object Detection in Autonomous Driving",
+          "url": "https://arxiv.org/abs/2604.23105v1"
+        },
+        {
+          "title": "Learning from Imperfect Text Guidance: Robust Long-Tail Visual Recognition with High-Noise Label",
+          "url": "https://arxiv.org/abs/2604.23125v1"
+        },
+        {
+          "title": "Visual Chart Representations for Cryptocurrency Regime Prediction: A Systematic Deep Learning Study",
+          "url": "https://arxiv.org/abs/2605.00875v1"
+        },
+        {
+          "title": "CNN-ViT Fusion with Adaptive Attention Gate for Brain Tumor MRI Classification: A Hybrid Deep Learning Model",
+          "url": "https://arxiv.org/abs/2604.23137v1"
+        },
+        {
+          "title": "UpstreamQA: A Modular Framework for Explicit Reasoning on Video Question Answering Tasks",
+          "url": "https://arxiv.org/abs/2604.23145v1"
+        },
+        {
+          "title": "BSViT: A Burst Spiking Vision Transformer for Expressive and Efficient Visual Representation Learning",
+          "url": "https://arxiv.org/abs/2604.23165v1"
+        },
+        {
+          "title": "A Topology fixated Shape Gradient Framework for Non Simple Boundary Extraction for CIE Lab color images with Repulsive Energy",
+          "url": "https://arxiv.org/abs/2604.23167v1"
+        },
+        {
+          "title": "One Identity, Many Roles: Multimodal Entity Coreference for Enhanced Video Situation Recognition",
+          "url": "https://arxiv.org/abs/2604.23173v1"
+        },
+        {
+          "title": "DyABD: The Abdominal Muscle Segmentation in Dynamic MRI Benchmark",
+          "url": "https://arxiv.org/abs/2604.23187v1"
+        },
+        {
+          "title": "AnalogRetriever: Learning Cross-Modal Representations for Analog Circuit Retrieval",
+          "url": "https://arxiv.org/abs/2604.23195v1"
+        },
+        {
+          "title": "Micro-Expression-Aware Avatar Fingerprinting via Inter-Frame Feature Differencing",
+          "url": "https://arxiv.org/abs/2604.23247v1"
+        },
+        {
+          "title": "MotionHiFlow: Text-to-motion via hierarchical flow matching",
+          "url": "https://arxiv.org/abs/2604.23264v1"
+        },
+        {
+          "title": "LatentBurst: A Fast and Efficient Multi Frame Super-Resolution for Hexadeca-Bayer Pattern CIS images",
+          "url": "https://arxiv.org/abs/2604.23268v1"
+        },
+        {
+          "title": "A Hierarchical Ensemble Inference Pipeline for Robust White Blood Cell Classification Under Domain Shifts",
+          "url": "https://arxiv.org/abs/2604.23271v1"
+        },
+        {
+          "title": "SemiGDA: Generative Dual-distribution Alignment for Semi-Supervised Medical Image Segmentation",
+          "url": "https://arxiv.org/abs/2604.23274v1"
+        },
+        {
+          "title": "Lightweight and Production-Ready PDF Visual Element Parsing",
+          "url": "https://arxiv.org/abs/2604.23276v1"
+        },
+        {
+          "title": "Bridging the Pose-Semantic Gap: A Cascade Framework for Text-Based Person Anomaly Search",
+          "url": "https://arxiv.org/abs/2604.23282v1"
+        },
+        {
+          "title": "MetaErr: Towards Predicting Error Patterns in Deep Neural Networks",
+          "url": "https://arxiv.org/abs/2604.23289v2"
+        },
+        {
+          "title": "STAND: Semantic Anchoring Constraint with Dual-Granularity Disambiguation for Remote Sensing Image Change Captioning",
+          "url": "https://arxiv.org/abs/2604.23309v1"
+        },
+        {
+          "title": "Learning from Noisy Prompts: Saliency-Guided Prompt Distillation for Robust Segmentation with SAM",
+          "url": "https://arxiv.org/abs/2604.23314v1"
+        },
+        {
+          "title": "KAConvNet: Kolmogorov-Arnold Convolutional Networks for Vision Recognition",
+          "url": "https://arxiv.org/abs/2604.23320v1"
+        },
+        {
+          "title": "EAD-Net: Emotion-Aware Talking Head Generation with Spatial Refinement and Temporal Coherence",
+          "url": "https://arxiv.org/abs/2604.23325v1"
+        },
+        {
+          "title": "H-SemiS: Hierarchical Fusion of Semi and Self-Supervised Learning for Knee Osteoarthritis Severity Grading",
+          "url": "https://arxiv.org/abs/2604.23335v1"
+        },
+        {
+          "title": "Exploring Hierarchical Consistency and Unbiased Objectness for Open-Vocabulary Object Detection",
+          "url": "https://arxiv.org/abs/2604.23344v1"
+        },
+        {
+          "title": "EmoTrans: A Benchmark for Understanding, Reasoning, and Predicting Emotion Transitions in Multimodal LLMs",
+          "url": "https://arxiv.org/abs/2604.23348v1"
+        },
+        {
+          "title": "Hierarchical Spatio-Channel Clustering for Efficient Model Compression in Medical Image Analysis",
+          "url": "https://arxiv.org/abs/2604.23375v1"
+        },
+        {
+          "title": "Keypoint-based Dynamic Object 6-DoF Pose Tracking via Event Camera",
+          "url": "https://arxiv.org/abs/2604.23387v1"
+        },
+        {
+          "title": "Breaking the Resource Wall: Geometry-Guided Sequence Modeling for Efficient Semantic Segmentation",
+          "url": "https://arxiv.org/abs/2604.23399v2"
+        },
+        {
+          "title": "Learn&Drop: Fast Learning of CNNs based on Layer Dropping",
+          "url": "https://arxiv.org/abs/2604.23403v1"
+        },
+        {
+          "title": "PushupBench: Your VLM is not good at counting pushups",
+          "url": "https://arxiv.org/abs/2604.23407v1"
+        },
+        {
+          "title": "A Heterogeneous Two-Stream Framework for Video Action Recognition with Comparative Fusion Analysis",
+          "url": "https://arxiv.org/abs/2604.23415v1"
+        },
+        {
+          "title": "Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
+          "url": "https://arxiv.org/abs/2604.23426v1"
+        },
+        {
+          "title": "Sphere-Depth: A Benchmark for Depth Estimation Methods with Varying Spherical Camera Orientations",
+          "url": "https://arxiv.org/abs/2604.23432v1"
+        },
+        {
+          "title": "Knee-xRAI: An Explainable AI Framework for Automatic Kellgren-Lawrence Grading of Knee Osteoarthritis",
+          "url": "https://arxiv.org/abs/2604.23435v1"
+        },
+        {
+          "title": "Resource-Constrained UAV-Based Weed Detection for Site-Specific Management on Edge Devices",
+          "url": "https://arxiv.org/abs/2604.23442v1"
+        },
+        {
+          "title": "From Edges to Depth: Probing the Spatial Hierarchy in Vision Transformers",
+          "url": "https://arxiv.org/abs/2604.23452v1"
         }
       ]
     },
