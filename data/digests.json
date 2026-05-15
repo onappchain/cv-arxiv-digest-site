@@ -2,7 +2,7 @@
   "site": {
     "title": "Computer Vision arXiv Digest",
     "description": "Daily ranked top 5 cs.CV papers with expandable full listings.",
-    "updated_at": "2026-04-26"
+    "updated_at": "2026-05-02"
   },
   "entries": [
     {
@@ -5842,6 +5842,231 @@
         {
           "title": "TimeRFT: Stimulating Generalizable Time Series Forecasting for TSFMs via Reinforcement Finetuning",
           "url": "https://arxiv.org/abs/2605.00015"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-02",
+      "top5": [
+        {
+          "rank": 1,
+          "title": "Multi-Dataset Cross-Domain Knowledge Distillation for Unified Medical Image Segmentation, Classification, and Detection",
+          "url": "https://arxiv.org/abs/2605.01563v1",
+          "summary": "We propose a unified cross-domain transfer learning framework that leverages knowledge from multiple heterogeneous medical imaging datasets to improve performance across segmentation, classification, and object detection tasks."
+        },
+        {
+          "rank": 2,
+          "title": "Omni-Fake: Benchmarking Unified Multimodal Social Media Deepfake Detection",
+          "url": "https://arxiv.org/abs/2605.01638v1",
+          "summary": "Multimodal deepfakes are proliferating on social media and threaten authenticity, information integrity, and digital forensics."
+        },
+        {
+          "rank": 3,
+          "title": "Exploring Prompt Alignment with Clinical Factors in Zero-Shot Segmentation VLMs for NSCLC Tumor Segmentation",
+          "url": "https://arxiv.org/abs/2605.01266v1",
+          "summary": "Zero-shot vision-language models (VLMs) offer a promptable alternative to task-specific training for gross tumor volume (GTV) delineation in non-small-cell lung cancer (NSCLC), but the prompt dimensions that govern their spatial behavior remain po."
+        },
+        {
+          "rank": 4,
+          "title": "VISTA: Video Interaction Spatio-Temporal Analysis Benchmark",
+          "url": "https://arxiv.org/abs/2605.01391v1",
+          "summary": "Existing benchmarks for Vision-Language Models (VLMs) primarily evaluate spatio-temporal understanding on simple single-action videos, closed attribute sets and restricted entity types, failing to capture the freeform, multi-action interactions be."
+        },
+        {
+          "rank": 5,
+          "title": "Beyond Perceptual Shortcuts: Causal-Inspired Debiasing Optimization for Generalizable Video Reasoning in Lightweight MLLMs",
+          "url": "https://arxiv.org/abs/2605.01324v2",
+          "summary": "Although reinforcement learning (RL) has significantly advanced reasoning capabilities in large multimodal language models (MLLMs), its efficacy remains limited for lightweight models essential for edge deployments."
+        }
+      ],
+      "papers": [
+        {
+          "title": "CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization",
+          "url": "https://arxiv.org/abs/2605.01171v1"
+        },
+        {
+          "title": "Phase-map synthesis from magnitude-only MR images using conditional score-based diffusion models with application in training of accelerated MRI reconstruction models",
+          "url": "https://arxiv.org/abs/2605.01185v1"
+        },
+        {
+          "title": "Asymmetric Invertible Threat: Learning Reversible Privacy Defense for Face Recognition",
+          "url": "https://arxiv.org/abs/2605.01217v1"
+        },
+        {
+          "title": "Visual Implicit Autoregressive Modeling",
+          "url": "https://arxiv.org/abs/2605.01220v1"
+        },
+        {
+          "title": "TT4D: A Pipeline and Dataset for Table Tennis 4D Reconstruction From Monocular Videos",
+          "url": "https://arxiv.org/abs/2605.01234v1"
+        },
+        {
+          "title": "Degradation-Aware Adaptive Context Gating for Unified Image Restoration",
+          "url": "https://arxiv.org/abs/2605.01236v1"
+        },
+        {
+          "title": "Exploring Prompt Alignment with Clinical Factors in Zero-Shot Segmentation VLMs for NSCLC Tumor Segmentation",
+          "url": "https://arxiv.org/abs/2605.01266v1"
+        },
+        {
+          "title": "GameScope: A Multi-Attribute, Multi-Codec Benchmark Dataset for Gaming Video Quality Assessment",
+          "url": "https://arxiv.org/abs/2605.01272v1"
+        },
+        {
+          "title": "CNN-based Multi-In-Multi-Out Model for Efficient Spatiotemporal Prediction",
+          "url": "https://arxiv.org/abs/2605.01277v1"
+        },
+        {
+          "title": "Developing a Strong Pre-Trained Base Model for Plant Leaf Disease Classification",
+          "url": "https://arxiv.org/abs/2605.01283v1"
+        },
+        {
+          "title": "Chain of Evidence: Pixel-Level Visual Attribution for Iterative Retrieval-Augmented Generation",
+          "url": "https://arxiv.org/abs/2605.01284v1"
+        },
+        {
+          "title": "SIFT-VTON: Geometric Correspondence Supervision on Cross-Attention for Virtual Try-On",
+          "url": "https://arxiv.org/abs/2605.01296v1"
+        },
+        {
+          "title": "CUE: Concept-Aware Multi-Label Expansion to Mitigate Concept Confusion in Long-Tailed Learning",
+          "url": "https://arxiv.org/abs/2605.01309v1"
+        },
+        {
+          "title": "PACE: Post-Causal Entropy Modeling for Learned LiDAR Point Cloud Compression",
+          "url": "https://arxiv.org/abs/2605.01320v1"
+        },
+        {
+          "title": "Beyond Perceptual Shortcuts: Causal-Inspired Debiasing Optimization for Generalizable Video Reasoning in Lightweight MLLMs",
+          "url": "https://arxiv.org/abs/2605.01324v2"
+        },
+        {
+          "title": "Rethinking Model Selection in VLM Through the Lens of Gromov-Wasserstein Distance",
+          "url": "https://arxiv.org/abs/2605.01325v1"
+        },
+        {
+          "title": "Colinearity Decay: Training Quantization-Friendly ViTs with Outlier Decay",
+          "url": "https://arxiv.org/abs/2605.01330v1"
+        },
+        {
+          "title": "Zero-Shot Interpretable Image Steganalysis for Invertible Image Hiding",
+          "url": "https://arxiv.org/abs/2605.01331v1"
+        },
+        {
+          "title": "The Perceptual Bandwidth Bottleneck in Vision-Language Models: Active Visual Reasoning via Sequential Experimental Design",
+          "url": "https://arxiv.org/abs/2605.01345v3"
+        },
+        {
+          "title": "CHASE: Competing Hypotheses for Ambiguity-Aware Selective Prediction",
+          "url": "https://arxiv.org/abs/2605.01346v1"
+        },
+        {
+          "title": "AgriKD: Cross-Architecture Knowledge Distillation for Efficient Leaf Disease Classification",
+          "url": "https://arxiv.org/abs/2605.01355v2"
+        },
+        {
+          "title": "VoxAfford: Multi-Scale Voxel-Token Fusion for Open-Vocabulary 3D Affordance Detection",
+          "url": "https://arxiv.org/abs/2605.01365v1"
+        },
+        {
+          "title": "Sparse Representation Learning for Vessels",
+          "url": "https://arxiv.org/abs/2605.01382v1"
+        },
+        {
+          "title": "VISTA: Video Interaction Spatio-Temporal Analysis Benchmark",
+          "url": "https://arxiv.org/abs/2605.01391v1"
+        },
+        {
+          "title": "Recall to Predict: Grounding Motion Forecasting in Interpretable Motion Bank",
+          "url": "https://arxiv.org/abs/2605.01393v1"
+        },
+        {
+          "title": "Registration-Free Learnable Multi-View Capture of Faces in Dense Semantic Correspondence",
+          "url": "https://arxiv.org/abs/2605.01450v1"
+        },
+        {
+          "title": "SRGAN-CKAN: Expressive Super-Resolution with Nonlinear Functional Operators under Minimal Resources",
+          "url": "https://arxiv.org/abs/2605.01459v2"
+        },
+        {
+          "title": "SplAttN: Bridging 2D and 3D with Gaussian Soft Splatting and Attention for Point Cloud Completion",
+          "url": "https://arxiv.org/abs/2605.01466v1"
+        },
+        {
+          "title": "Decision Boundary-aware Generation for Long-tailed Learning",
+          "url": "https://arxiv.org/abs/2605.01468v1"
+        },
+        {
+          "title": "LIE: LiDAR-only HD Map Construction with Intensity Enhancement via Online Knowledge Distillation",
+          "url": "https://arxiv.org/abs/2605.01478v1"
+        },
+        {
+          "title": "CSGuard: Toward Forgery-Resistant Watermarking in Diffusion Models via Compressed Sensing Constraint",
+          "url": "https://arxiv.org/abs/2605.01479v1"
+        },
+        {
+          "title": "AttnRouter: Per-Category Attention Routing for Training-Free Image Editing on MMDiT",
+          "url": "https://arxiv.org/abs/2605.01480v1"
+        },
+        {
+          "title": "Research on Vision-Language Question Answering Models for Industrial Robots",
+          "url": "https://arxiv.org/abs/2605.01483v1"
+        },
+        {
+          "title": "CGFformer: Cluster-Guidance Frequency Transformer for Pansharpening",
+          "url": "https://arxiv.org/abs/2605.01490v1"
+        },
+        {
+          "title": "SF20K Competition 2025: Summary and findings",
+          "url": "https://arxiv.org/abs/2605.01496v1"
+        },
+        {
+          "title": "Towards Visual Query Localization in the 3D World",
+          "url": "https://arxiv.org/abs/2605.01498v1"
+        },
+        {
+          "title": "RADMI: Latent Information Aggregation as a Proxy for Model Uncertainty",
+          "url": "https://arxiv.org/abs/2605.01502v1"
+        },
+        {
+          "title": "OmniEncoder: See, Hear, and Feel Continuous Motion Like Humans With One Encoder",
+          "url": "https://arxiv.org/abs/2605.01506v1"
+        },
+        {
+          "title": "SwiftPie: Lightning-fast Subject-driven Image Personalization via One step Diffusion",
+          "url": "https://arxiv.org/abs/2605.01510v1"
+        },
+        {
+          "title": "Two-Pass Zero-Shot Temporal-Spatial Grounding of Rare Traffic Events in Surveillance Video",
+          "url": "https://arxiv.org/abs/2605.01512v1"
+        },
+        {
+          "title": "VAnim: Rendering-Aware Sparse State Modeling for Structure-Preserving Vector Animation",
+          "url": "https://arxiv.org/abs/2605.01517v1"
+        },
+        {
+          "title": "Certified vs. Empirical Adversarial Robust-ness via Hybrid Convolutions with Attention Stochasticity",
+          "url": "https://arxiv.org/abs/2605.01519v1"
+        },
+        {
+          "title": "MIRL: Mutual Information-Guided Reinforcement Learning for Vision-Language Models",
+          "url": "https://arxiv.org/abs/2605.01520v1"
+        },
+        {
+          "title": "Robust Fundamental Matrix Estimation from Single Image Motion Blur",
+          "url": "https://arxiv.org/abs/2605.01552v1"
+        },
+        {
+          "title": "Multi-Dataset Cross-Domain Knowledge Distillation for Unified Medical Image Segmentation, Classification, and Detection",
+          "url": "https://arxiv.org/abs/2605.01563v1"
+        },
+        {
+          "title": "Unifying Deep Stochastic Processes for Image Enhancement",
+          "url": "https://arxiv.org/abs/2605.01568v1"
+        },
+        {
+          "title": "Omni-Fake: Benchmarking Unified Multimodal Social Media Deepfake Detection",
+          "url": "https://arxiv.org/abs/2605.01638v1"
         }
       ]
     },
